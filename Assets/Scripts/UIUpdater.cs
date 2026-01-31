@@ -92,7 +92,7 @@ private IEnumerator LevelCompleteRoutine()
         historyText.text = "";
         foreach (uint value in numberManager.history)
         {
-            historyText.text += ToBinaryString(value) + "\n";
+            historyText.text = ToBinaryString(value)  + "\n" + historyText.text;
         }
     }
 
