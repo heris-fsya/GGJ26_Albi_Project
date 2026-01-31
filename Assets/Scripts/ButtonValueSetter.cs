@@ -7,7 +7,7 @@ public class ButtonValueSetter : MonoBehaviour
 
     public void ApplyLevelData(LevelData levelData)
     {
-        for(int i = 0; i < levelData.buttons.Count && i < 6; i++)
+        for(int i = 0; i < levelData.buttons.Count && i < 8; i++)
         {
             buttons[i].gameObject.SetActive(true);
             buttons[i].valueToAdd = levelData.buttons[i].valueToAdd;

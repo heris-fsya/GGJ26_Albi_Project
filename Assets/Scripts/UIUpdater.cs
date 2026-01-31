@@ -14,6 +14,7 @@ public class UIUpdater : MonoBehaviour
     public TMP_Text currentNumberText;
     public TMP_Text goalText;
     public TMP_Text historyText;
+    public TMP_Text baseText;
 
     [Header("Colors")]
     public Color normalColor = Color.white;
@@ -41,6 +42,9 @@ public class UIUpdater : MonoBehaviour
 
         // Goal
         goalText.text = ToBinaryString(numberManager.goalNumber);
+
+        // Base number
+        baseText.text = ToBinaryString(numberManager.baseNumber);
 
         // Color when goal reached
         currentNumberText.color = numberManager.IsGoalReached()
