@@ -10,24 +10,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c77c10dbdfbb6c346b9fed6dfeeb2df9, type: 3}
-  m_Name: LevelTest
+  m_Name: LevelE2
   m_EditorClassIdentifier: Assembly-CSharp::LevelData
-  bitLength: 8
-  difficulty: 2
-  showGoalDecimal: 1
-  showButtonDecimal: 1
-  baseNumber: 111
-  goalNumber: 64
+  bitLength: 4
+  difficulty: 0
+  showGoalDecimal: 0
+  showButtonDecimal: 0
+  baseNumber: 4
+  goalNumber: 11
   buttons:
-  - value: 132
+  - value: 5
     bitMaskOperator: 0
-  - value: 69
-    bitMaskOperator: 3
+  - value: 15
+    bitMaskOperator: 2
   - value: 2
-    bitMaskOperator: 6
-  - value: 174
-    bitMaskOperator: 0
-  - value: 28
     bitMaskOperator: 3
-  - value: 0
-    bitMaskOperator: 5
+  - value: 6
+    bitMaskOperator: 1
