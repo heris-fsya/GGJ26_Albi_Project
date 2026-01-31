@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8940715485083444420}
   - component: {fileID: 3938218827642278915}
   - component: {fileID: 2289174208323407208}
+  - component: {fileID: 8330005762526734640}
   m_Layer: 5
   m_Name: Mask 1
   m_TagString: Untagged
@@ -68,7 +69,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 5984812077627300118, guid: 72e795b03ce25ec4b8860eaf21026b24, type: 3}
+  m_Sprite: {fileID: -4699510116321250514, guid: d38982d00cd21de45a32404f3558d3d7, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -149,6 +150,40 @@ MonoBehaviour:
   numberManager: {fileID: 0}
   value: 0
   bitMaskOperator: 0
+--- !u!114 &8330005762526734640
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 504909052290587621}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cc0acbec64b79644ac402128ed264e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ManualUIImageAnimator
+  frames:
+  - {fileID: -4699510116321250514, guid: d38982d00cd21de45a32404f3558d3d7, type: 3}
+  - {fileID: -4422451064301510976, guid: d38982d00cd21de45a32404f3558d3d7, type: 3}
+  - {fileID: 1309732498815641068, guid: d38982d00cd21de45a32404f3558d3d7, type: 3}
+  - {fileID: -8417910431152615185, guid: d38982d00cd21de45a32404f3558d3d7, type: 3}
+  - {fileID: -3738077896099454328, guid: d38982d00cd21de45a32404f3558d3d7, type: 3}
+  - {fileID: 2877904794214362663, guid: d38982d00cd21de45a32404f3558d3d7, type: 3}
+  - {fileID: -2276658871457607875, guid: d38982d00cd21de45a32404f3558d3d7, type: 3}
+  - {fileID: -7961620995778218222, guid: d38982d00cd21de45a32404f3558d3d7, type: 3}
+  - {fileID: -6989193882538772969, guid: d38982d00cd21de45a32404f3558d3d7, type: 3}
+  - {fileID: -4588704862658955259, guid: d38982d00cd21de45a32404f3558d3d7, type: 3}
+  - {fileID: 1080252865891760953, guid: d38982d00cd21de45a32404f3558d3d7, type: 3}
+  - {fileID: 4053473926217196956, guid: d38982d00cd21de45a32404f3558d3d7, type: 3}
+  - {fileID: 1685784908282622747, guid: d38982d00cd21de45a32404f3558d3d7, type: 3}
+  - {fileID: 8718347134036403309, guid: d38982d00cd21de45a32404f3558d3d7, type: 3}
+  - {fileID: -1680885812839390235, guid: d38982d00cd21de45a32404f3558d3d7, type: 3}
+  - {fileID: 8016350741085917349, guid: d38982d00cd21de45a32404f3558d3d7, type: 3}
+  - {fileID: -3842024120576816583, guid: d38982d00cd21de45a32404f3558d3d7, type: 3}
+  - {fileID: -5921655065308095461, guid: d38982d00cd21de45a32404f3558d3d7, type: 3}
+  frameRate: 24
+  loop: 1
+  playOnStart: 1
 --- !u!1 &5825430162600524874
 GameObject:
   m_ObjectHideFlags: 0

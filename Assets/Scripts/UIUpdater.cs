@@ -5,6 +5,7 @@ using System.Diagnostics;
 using System.Collections;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class UIUpdater : MonoBehaviour
 {
@@ -24,6 +25,7 @@ public class UIUpdater : MonoBehaviour
     [Header("Deco")]
     public Color normalColor = Color.white;
     public Color goalReachedColor = Color.blue;
+    public Color goalLockedColor = Color.red;
     public GameObject cadenas;
 
     private void OnEnable()
@@ -38,6 +40,7 @@ public class UIUpdater : MonoBehaviour
 
     private void Start()
     {
+        cadenas.GetComponent<Image>().color = goalLockedColor;
         UpdateUI();
     }
 
@@ -55,9 +58,15 @@ private IEnumerator LevelCompleteRoutine()
 
     UnityEngine.Debug.Log("Niveau terminé !");
 
-    cadenas.GetComponent<ManualUIImageAnimator>().Play();
+    ManualUIImageAnimator cadenasAnimator = cadenas.GetComponent<ManualUIImageAnimator>();
+    cadenasAnimator.Play();
+    cadenas.GetComponent<Image>().color = goalReachedColor;
 
-    yield return new WaitForSeconds(1f);
+    yield return new WaitForSeconds(2f);
+
+    cadenasAnimator.Stop();
+    cadenasAnimator.ResetAnimation();
+    cadenas.GetComponent<Image>().color = goalLockedColor;
 
     levelLoader.NextLevel();
 

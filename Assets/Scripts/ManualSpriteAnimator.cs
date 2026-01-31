@@ -60,6 +60,17 @@ public class ManualSpriteAnimator : MonoBehaviour
         spriteRenderer.sprite = frames[currentFrame];
     }
 
+    public void SetFrame(int index)
+    {
+        if(index >= frames.Length)
+        {
+            throw new System.Exception("Index de sprite non existant");
+        }
+
+        currentFrame = index;
+        spriteRenderer.sprite = frames[currentFrame];
+    }
+
     // ===== CONTROLS =====
 
     public void Play()
