@@ -18,15 +18,15 @@ MonoBehaviour:
   baseNumber: 111
   goalNumber: 64
   buttons:
-  - valueToAdd: 4
+  - value: 132
     bitMaskOperator: 0
-  - valueToAdd: 9
+  - value: 69
     bitMaskOperator: 3
-  - valueToAdd: 4
-    bitMaskOperator: 2
-  - valueToAdd: 6
+  - value: 2
+    bitMaskOperator: 6
+  - value: 174
     bitMaskOperator: 0
-  - valueToAdd: 1
+  - value: 28
     bitMaskOperator: 3
-  - valueToAdd: 2
+  - value: 0
     bitMaskOperator: 5

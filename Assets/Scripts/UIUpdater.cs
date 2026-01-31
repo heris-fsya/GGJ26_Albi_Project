@@ -72,7 +72,7 @@ public class UIUpdater : MonoBehaviour
 
         // History
         historyText.text = "";
-        foreach (int value in numberManager.history)
+        foreach (uint value in numberManager.history)
         {
             historyText.text += ToBinaryString(value) + "\n";
         }
@@ -111,10 +111,10 @@ public class UIUpdater : MonoBehaviour
                 break;
         }
 
-        buttonText.text = symbol + " " + ToBinaryString(button.valueToAdd);
+        buttonText.text = symbol + " " + ToBinaryString(button.value);
     }
 
-    public string ToBinaryString(int number)
+    public string ToBinaryString(uint number)
     {
         return Convert.ToString(number, 2).PadLeft(bitLength, '0');
     }
