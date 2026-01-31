@@ -9,7 +9,7 @@ public class LevelData : ScriptableObject
     public int bitLength;
 
     [Header("Difficulty")]
-    public string difficulty; // "Facile", "Normal", "Difficile"
+    public Difficulty difficulty; // "Facile", "Normal", "Difficile"
 
     [Header("Numbers")]
     public int baseNumber;

@@ -3796,7 +3796,7 @@ MonoBehaviour:
   numberManager: {fileID: 1979850056}
   buttonValueSetter: {fileID: 1979850058}
   uiUpdater: {fileID: 1327480758}
-  difficultyEventSystem: {fileID: 0}
+  difficultyEventSystem: {fileID: 1979850060}
 --- !u!114 &1979850060
 MonoBehaviour:
   m_ObjectHideFlags: 0
