@@ -55,9 +55,9 @@ public class LevelLoader : MonoBehaviour
         LoadLevel(currentLevelIndex);
     }
 
-    // (optionnel mais pratique)
     public void RestartLevel()
     {
+        StartCoroutine(uiUpdater.LevelResetRoutine());
         LoadLevel(currentLevelIndex);
     }
 }
