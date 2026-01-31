@@ -82,36 +82,36 @@ public class UIUpdater : MonoBehaviour
     {
         TMP_Text buttonText = button.GetComponentInChildren<TMP_Text>();
 
-        string symbol = "";
+        string text = "";
         switch(button.bitMaskOperator)
         {
             case Operators.AND :
-                symbol = "&";
+                text = "& " + ToBinaryString(button.value);
                 break;
             case Operators.NAND :
-                symbol = "~&";
+                text = "~& " + ToBinaryString(button.value);
                 break;
             case Operators.OR :
-                symbol = "|";
+                text = "| " + ToBinaryString(button.value);
                 break;
             case Operators.NOR :
-                symbol = "~|";
+                text = "~| " + ToBinaryString(button.value);
                 break;
             case Operators.XOR :
-                symbol = "^";
+                text = "^ " + ToBinaryString(button.value);
                 break;
             case Operators.INVERT :
-                symbol = "~";
+                text = "~";
                 break;
             case Operators.SHIFTLEFT :
-                symbol = "<<";
+                text = "<< " + button.value;
                 break;
             case Operators.SHIFTRIGHT :
-                symbol = ">>";
+                text = ">> " + button.value;
                 break;
         }
 
-        buttonText.text = symbol + " " + ToBinaryString(button.value);
+        buttonText.text = text;
     }
 
     public string ToBinaryString(uint number)

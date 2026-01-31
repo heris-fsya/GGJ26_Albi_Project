@@ -43,12 +43,14 @@ public class NumberManager : MonoBehaviour
                 break;
             case Operators.NAND:
                 currentNumber = ~(currentNumber & value);
+                currentNumber = currentNumber % nbOfPossibleValues;
                 break;
             case Operators.OR:
                 currentNumber = currentNumber | value;
                 break;
             case Operators.NOR:
                 currentNumber = ~(currentNumber | value);
+                currentNumber = currentNumber % nbOfPossibleValues;
                 break;
             case Operators.XOR:
                 currentNumber = currentNumber ^ value;
