@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using System.ComponentModel;
 using TMPro;
 using UnityEngine;
@@ -58,6 +59,43 @@ public class UIUpdater : MonoBehaviour
             historyText.text += ToBinaryString(value) + "\n";
         }
     }
+
+    public void UpdateButtonText(NumberButton button)
+    {
+        TMP_Text buttonText = button.GetComponentInChildren<TMP_Text>();
+
+        string symbol = "";
+        switch(button.bitMaskOperator)
+        {
+            case Operators.AND :
+                symbol = "&";
+                break;
+            case Operators.NAND :
+                symbol = "~&";
+                break;
+            case Operators.OR :
+                symbol = "|";
+                break;
+            case Operators.NOR :
+                symbol = "~|";
+                break;
+            case Operators.XOR :
+                symbol = "^";
+                break;
+            case Operators.INVERT :
+                symbol = "~";
+                break;
+            case Operators.SHIFTLEFT :
+                symbol = "<<";
+                break;
+            case Operators.SHIFTRIGHT :
+                symbol = ">>";
+                break;
+        }
+
+        buttonText.text = symbol + " " + ToBinaryString(button.valueToAdd);
+    }
+
     public string ToBinaryString(int number)
     {
         return Convert.ToString(number, 2).PadLeft(bitLength, '0');
