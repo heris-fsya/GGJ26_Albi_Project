@@ -25,6 +25,7 @@ public class UIUpdater : MonoBehaviour
     public Color normalColor = Color.white;
     public Color goalReachedColor = Color.blue;
     public GameObject cadenas;
+    public GameObject StopPanel;
 
     private void OnEnable()
     {
@@ -131,6 +132,17 @@ private IEnumerator LevelCompleteRoutine()
 
         buttonText.text = text;
     }
+    public void PausedGame(bool isPaused)
+    {
+       
+            StopPanel.SetActive(isPaused);
+           
+        }   
+
+
+
+    
+
 
     public string ToBinaryString(uint number)
     {
