@@ -17,9 +17,10 @@ public class UIUpdater : MonoBehaviour
     public TMP_Text historyText;
     public TMP_Text baseText;
 
-    [Header("Colors")]
+    [Header("Deco")]
     public Color normalColor = Color.white;
     public Color goalReachedColor = Color.blue;
+    public GameObject cadenas;
 
     private void OnEnable()
     {
@@ -51,6 +52,7 @@ public class UIUpdater : MonoBehaviour
         currentNumberText.color = numberManager.IsGoalReached()
             ? goalReachedColor
             : normalColor;
+            cadenas.GetComponent<ManualUIImageAnimator>().Play();
 
         // History
         historyText.text = "";
