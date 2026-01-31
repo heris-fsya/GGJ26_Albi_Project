@@ -2528,6 +2528,7 @@ GameObject:
   - component: {fileID: 1037287376}
   - component: {fileID: 1037287375}
   - component: {fileID: 1037287374}
+  - component: {fileID: 1037287377}
   m_Layer: 5
   m_Name: cadenas
   m_TagString: Untagged
@@ -2612,6 +2613,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1037287372}
   m_CullTransparentMesh: 1
+--- !u!114 &1037287377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1037287372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cc0acbec64b79644ac402128ed264e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ManualUIImageAnimator
+  frames:
+  - {fileID: 5127281360001064296, guid: dea2f9895dddbe342bf3118ea1cd09f4, type: 3}
+  - {fileID: -4448619410712830194, guid: dea2f9895dddbe342bf3118ea1cd09f4, type: 3}
+  - {fileID: 7194707231086498784, guid: dea2f9895dddbe342bf3118ea1cd09f4, type: 3}
+  - {fileID: 6128757135612971754, guid: dea2f9895dddbe342bf3118ea1cd09f4, type: 3}
+  - {fileID: 1248804801566812977, guid: dea2f9895dddbe342bf3118ea1cd09f4, type: 3}
+  - {fileID: -120286276728557340, guid: dea2f9895dddbe342bf3118ea1cd09f4, type: 3}
+  - {fileID: 529994370187570541, guid: dea2f9895dddbe342bf3118ea1cd09f4, type: 3}
+  - {fileID: -4412991253474106290, guid: dea2f9895dddbe342bf3118ea1cd09f4, type: 3}
+  - {fileID: 7640198539948987576, guid: dea2f9895dddbe342bf3118ea1cd09f4, type: 3}
+  - {fileID: -8682014642743895549, guid: dea2f9895dddbe342bf3118ea1cd09f4, type: 3}
+  - {fileID: 7654508343164486993, guid: dea2f9895dddbe342bf3118ea1cd09f4, type: 3}
+  - {fileID: 4898780243441350863, guid: dea2f9895dddbe342bf3118ea1cd09f4, type: 3}
+  - {fileID: -124013086169835994, guid: dea2f9895dddbe342bf3118ea1cd09f4, type: 3}
+  frameRate: 8
+  loop: 1
+  playOnStart: 0
 --- !u!1 &1114503405
 GameObject:
   m_ObjectHideFlags: 0
@@ -3068,6 +3098,7 @@ MonoBehaviour:
   baseText: {fileID: 596369317}
   normalColor: {r: 0.16333684, g: 0.8018868, b: 0, a: 1}
   goalReachedColor: {r: 0, g: 0, b: 1, a: 1}
+  cadenas: {fileID: 1037287372}
 --- !u!114 &1327480759
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3292,7 +3323,7 @@ GameObject:
   - component: {fileID: 1780285996}
   - component: {fileID: 1780285995}
   m_Layer: 5
-  m_Name: Image
+  m_Name: border
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3509,24 +3540,63 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1822442768}
   m_CullTransparentMesh: 1
---- !u!111 &1822442773
-Animation:
+--- !u!114 &1822442773
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1822442768}
   m_Enabled: 1
-  serializedVersion: 4
-  m_Animation: {fileID: 0}
-  m_Animations:
-  - {fileID: 7400000, guid: dbd3d538f68305f4dbc50dd7589ed7d2, type: 2}
-  - {fileID: 7400000, guid: 811648309052c734cb5a2c509126ad2f, type: 2}
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_UpdateMode: 0
-  m_CullingType: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cc0acbec64b79644ac402128ed264e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ManualUIImageAnimator
+  frames:
+  - {fileID: 6687283527584876243, guid: 9c8bf8f377f56754e9543e39d970093b, type: 3}
+  - {fileID: 6687283527584876243, guid: 9c8bf8f377f56754e9543e39d970093b, type: 3}
+  - {fileID: -7179682011969685922, guid: 9c8bf8f377f56754e9543e39d970093b, type: 3}
+  - {fileID: 8987969109407276903, guid: 9c8bf8f377f56754e9543e39d970093b, type: 3}
+  - {fileID: -7363232683823872472, guid: 9c8bf8f377f56754e9543e39d970093b, type: 3}
+  - {fileID: 5271965272734845549, guid: 9c8bf8f377f56754e9543e39d970093b, type: 3}
+  - {fileID: -5109630962943912471, guid: 9c8bf8f377f56754e9543e39d970093b, type: 3}
+  - {fileID: 1732410785440676622, guid: 9c8bf8f377f56754e9543e39d970093b, type: 3}
+  - {fileID: -2549961198610148334, guid: 9c8bf8f377f56754e9543e39d970093b, type: 3}
+  - {fileID: -3137137650340720050, guid: 9c8bf8f377f56754e9543e39d970093b, type: 3}
+  - {fileID: 54284788948325853, guid: 9c8bf8f377f56754e9543e39d970093b, type: 3}
+  - {fileID: -4885112375769525519, guid: 9c8bf8f377f56754e9543e39d970093b, type: 3}
+  - {fileID: 7775437534935824898, guid: 9c8bf8f377f56754e9543e39d970093b, type: 3}
+  - {fileID: -1702476358356488735, guid: 9c8bf8f377f56754e9543e39d970093b, type: 3}
+  - {fileID: 229015350258287593, guid: 9c8bf8f377f56754e9543e39d970093b, type: 3}
+  - {fileID: 9082138692873388468, guid: 9c8bf8f377f56754e9543e39d970093b, type: 3}
+  - {fileID: -8399183443511088499, guid: 9c8bf8f377f56754e9543e39d970093b, type: 3}
+  - {fileID: -211649893769159634, guid: 9c8bf8f377f56754e9543e39d970093b, type: 3}
+  - {fileID: 4001447270092317457, guid: 9c8bf8f377f56754e9543e39d970093b, type: 3}
+  - {fileID: -1184066952809032973, guid: 9c8bf8f377f56754e9543e39d970093b, type: 3}
+  - {fileID: 156575550672097800, guid: 9c8bf8f377f56754e9543e39d970093b, type: 3}
+  - {fileID: -3174403537506805139, guid: 9c8bf8f377f56754e9543e39d970093b, type: 3}
+  - {fileID: -5881368446141768463, guid: 9c8bf8f377f56754e9543e39d970093b, type: 3}
+  - {fileID: -5464072297052198163, guid: 9c8bf8f377f56754e9543e39d970093b, type: 3}
+  - {fileID: 2086624136466703990, guid: 9c8bf8f377f56754e9543e39d970093b, type: 3}
+  - {fileID: -3358397721130554270, guid: 9c8bf8f377f56754e9543e39d970093b, type: 3}
+  - {fileID: 8654702772409183078, guid: 9c8bf8f377f56754e9543e39d970093b, type: 3}
+  - {fileID: 9151772518504848955, guid: 9c8bf8f377f56754e9543e39d970093b, type: 3}
+  - {fileID: 2263466465589120764, guid: 9c8bf8f377f56754e9543e39d970093b, type: 3}
+  - {fileID: -9221047381397830814, guid: 9c8bf8f377f56754e9543e39d970093b, type: 3}
+  - {fileID: 865012493163607232, guid: 9c8bf8f377f56754e9543e39d970093b, type: 3}
+  - {fileID: -2795794743479580271, guid: 9c8bf8f377f56754e9543e39d970093b, type: 3}
+  - {fileID: -6907625822032415517, guid: 9c8bf8f377f56754e9543e39d970093b, type: 3}
+  - {fileID: -8044213431533476598, guid: 9c8bf8f377f56754e9543e39d970093b, type: 3}
+  - {fileID: -8279321172505970966, guid: 9c8bf8f377f56754e9543e39d970093b, type: 3}
+  - {fileID: 2729181367151718308, guid: 9c8bf8f377f56754e9543e39d970093b, type: 3}
+  - {fileID: -8676075030811014379, guid: 9c8bf8f377f56754e9543e39d970093b, type: 3}
+  - {fileID: 7166919524084919100, guid: 9c8bf8f377f56754e9543e39d970093b, type: 3}
+  - {fileID: 7163490018567562898, guid: 9c8bf8f377f56754e9543e39d970093b, type: 3}
+  - {fileID: -1388215089161632085, guid: 9c8bf8f377f56754e9543e39d970093b, type: 3}
+  - {fileID: -8861440595443856116, guid: 9c8bf8f377f56754e9543e39d970093b, type: 3}
+  frameRate: 12
+  loop: 1
+  playOnStart: 1
 --- !u!1 &1833095989
 GameObject:
   m_ObjectHideFlags: 0
@@ -3697,6 +3767,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bfc5885be3bf72b4c8b00bb46e11c289, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ButtonValueSetter
+  uiUpdater: {fileID: 1327480758}
   buttons:
   - {fileID: 1126784297}
   - {fileID: 100587829}
@@ -3719,8 +3790,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LevelLoader
   levels:
-  - {fileID: 11400000, guid: b55a43251f0714842b87b6e5a73b5ee2, type: 2}
   - {fileID: 11400000, guid: ee2babb946208c849923da3b030e09b0, type: 2}
+  - {fileID: 11400000, guid: b55a43251f0714842b87b6e5a73b5ee2, type: 2}
   numberManager: {fileID: 1979850056}
   buttonValueSetter: {fileID: 1979850058}
   uiUpdater: {fileID: 1327480758}
