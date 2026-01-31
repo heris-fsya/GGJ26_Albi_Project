@@ -11,3 +11,10 @@ public enum Operators
     SHIFTLEFT,
     SHIFTRIGHT
 }
+
+public enum Difficulty
+{
+    EASY,
+    MEDIUM,
+    HARD
+}

@@ -592,7 +592,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: -16.729996, y: 0}
-  m_SizeDelta: {x: 20, y: -17}
+  m_SizeDelta: {x: 20, y: 71.012}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &154135792
 MonoBehaviour:
@@ -656,7 +656,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.8191527, g: 0.8191527, b: 0.8191527, a: 0.039215688}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2892,7 +2892,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.15294118}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -3092,6 +3092,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UIUpdater
   numberManager: {fileID: 1979850056}
+  levelLoader: {fileID: 1979850059}
   currentNumberText: {fileID: 708994701}
   goalText: {fileID: 418162955}
   historyText: {fileID: 854370563}
@@ -3717,6 +3718,7 @@ GameObject:
   - component: {fileID: 1979850056}
   - component: {fileID: 1979850059}
   - component: {fileID: 1979850058}
+  - component: {fileID: 1979850060}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -3795,6 +3797,25 @@ MonoBehaviour:
   numberManager: {fileID: 1979850056}
   buttonValueSetter: {fileID: 1979850058}
   uiUpdater: {fileID: 1327480758}
+  difficultyEventSystem: {fileID: 1979850060}
+  currentLevelIndex: 0
+--- !u!114 &1979850060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1979850055}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fd340d27d965a842a31424fd8c6dc31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DifficultyEventSystem
+  minDelay: 40
+  maxDelay: 90
+  onDifficultEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1001 &1995969288
 PrefabInstance:
   m_ObjectHideFlags: 0
