@@ -12,7 +12,7 @@ public class LevelLoader : MonoBehaviour
     public UIUpdater uiUpdater;
     public DifficultyEventSystem difficultyEventSystem;
 
-    private int currentLevelIndex = 0;
+    public int currentLevelIndex = 0;
 
     private void Start()
     {

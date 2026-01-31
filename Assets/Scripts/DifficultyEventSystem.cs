@@ -13,9 +13,9 @@ public class DifficultyEventSystem : MonoBehaviour
     private float timer;
     private float nextTriggerTime;
 
-    public void Configure(string difficulty)
+    public void Configure(Difficulty difficulty)
     {
-        isActive = (difficulty == "Difficile");
+        isActive = (difficulty == Difficulty.HARD);
 
         if (isActive)
             ScheduleNextEvent();

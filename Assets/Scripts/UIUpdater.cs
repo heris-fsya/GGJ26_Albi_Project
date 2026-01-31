@@ -8,6 +8,7 @@ public class UIUpdater : MonoBehaviour
 {
     [Header("References")]
     public NumberManager numberManager;
+    public LevelLoader levelLoader;
     public int bitLength { get; set; }
 
 
@@ -43,10 +44,14 @@ public class UIUpdater : MonoBehaviour
         currentNumberText.text = ToBinaryString(numberManager.currentNumber);
 
         // Goal
-        //if(LevelLoader.difficultyEventSystem.levelData.difficulty == "Facile")
-            //goalText.text = numberManager.goalNumber.ToString();
-       // else 
-        goalText.text = ToBinaryString(numberManager.goalNumber);
+        if(levelLoader.levels[levelLoader.currentLevelIndex].showGoalDecimal)
+        {
+            goalText.text = numberManager.goalNumber.ToString();
+        }
+        else
+        {
+            goalText.text = ToBinaryString(numberManager.goalNumber);
+        }
 
         // Base number
         baseText.text = ToBinaryString(numberManager.baseNumber);

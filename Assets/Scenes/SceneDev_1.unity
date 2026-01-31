@@ -592,7 +592,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: -16.729996, y: 0}
-  m_SizeDelta: {x: 20, y: -17}
+  m_SizeDelta: {x: 20, y: 71.012}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &154135792
 MonoBehaviour:
@@ -656,7 +656,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.8191527, g: 0.8191527, b: 0.8191527, a: 0.039215688}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2892,7 +2892,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.15294118}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -3092,6 +3092,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UIUpdater
   numberManager: {fileID: 1979850056}
+  levelLoader: {fileID: 1979850059}
   currentNumberText: {fileID: 708994701}
   goalText: {fileID: 418162955}
   historyText: {fileID: 854370563}
@@ -3796,7 +3797,8 @@ MonoBehaviour:
   numberManager: {fileID: 1979850056}
   buttonValueSetter: {fileID: 1979850058}
   uiUpdater: {fileID: 1327480758}
-  difficultyEventSystem: {fileID: 0}
+  difficultyEventSystem: {fileID: 1979850060}
+  currentLevelIndex: 0
 --- !u!114 &1979850060
 MonoBehaviour:
   m_ObjectHideFlags: 0

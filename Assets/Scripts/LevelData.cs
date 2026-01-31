@@ -9,7 +9,8 @@ public class LevelData : ScriptableObject
     public int bitLength;
 
     [Header("Difficulty")]
-    public string difficulty; // "Facile", "Normal", "Difficile"
+    public Difficulty difficulty; // "Facile", "Normal", "Difficile"
+    public bool showGoalDecimal; // On / Off pour Binaire / Decimal
 
     [Header("Numbers")]
     public int baseNumber;
