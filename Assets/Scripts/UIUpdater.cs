@@ -1,6 +1,8 @@
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Diagnostics;
+using System.Collections;
 using TMPro;
 using UnityEngine;
 
@@ -10,6 +12,7 @@ public class UIUpdater : MonoBehaviour
     public NumberManager numberManager;
     public LevelLoader levelLoader;
     public int bitLength { get; set; }
+    private bool isLevelEnding = false;
 
 
     [Header("Text Elements")]
@@ -38,6 +41,30 @@ public class UIUpdater : MonoBehaviour
         UpdateUI();
     }
 
+private void Update()
+{
+    if (numberManager.IsGoalReached() && !isLevelEnding)
+    {
+        StartCoroutine(LevelCompleteRoutine());
+    }
+}
+
+private IEnumerator LevelCompleteRoutine()
+{
+    isLevelEnding = true;
+
+    UnityEngine.Debug.Log("Niveau terminé !");
+
+    cadenas.GetComponent<ManualUIImageAnimator>().Play();
+
+    yield return new WaitForSeconds(1f);
+
+    levelLoader.NextLevel();
+
+    isLevelEnding = false;
+}
+
+
     void UpdateUI()
     {
         // Current number
@@ -59,16 +86,7 @@ public class UIUpdater : MonoBehaviour
         // Color when goal reached
         currentNumberText.color = numberManager.IsGoalReached()
             ? goalReachedColor 
-            : normalColor;
-          if (numberManager.IsGoalReached())
-        {
-            cadenas.GetComponent<ManualUIImageAnimator>().Play();
-        }
-        else
-        {
-            cadenas.GetComponent<ManualUIImageAnimator>().Stop();
-        }
-           
+            : normalColor; 
 
         // History
         historyText.text = "";
