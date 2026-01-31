@@ -10,7 +10,7 @@ public class NumberManager : MonoBehaviour
     public uint currentNumber { get; private set; }
     public uint baseNumber { get; private set; }
     public uint goalNumber { get; private set; }
-
+    private uint LastNumber { get; set; }
     public int bitLength { get; private set; }
 
     public List<uint> history = new List<uint>();
@@ -27,15 +27,15 @@ public class NumberManager : MonoBehaviour
 
         bitLength = levelData.bitLength;
 
-        history.Add(currentNumber);
+      //  history.Add(currentNumber);
 
-        onNumberChanged?.Invoke();
+       onNumberChanged?.Invoke();
     }
 
     public void Operation(Operators bitMaskOperator, uint value)
     {
         uint nbOfPossibleValues = (uint) Math.Pow(2, this.bitLength); // Ex: 256 for 8 bit, 16 for 4 bits, etc
-
+        LastNumber = currentNumber;
         switch(bitMaskOperator)
         {
             case Operators.AND:
@@ -68,7 +68,7 @@ public class NumberManager : MonoBehaviour
                 break;
         }
 
-        history.Add(currentNumber);
+        history.Add(LastNumber);
         onNumberChanged?.Invoke();
     }
 

@@ -28,6 +28,7 @@ public class UIUpdater : MonoBehaviour
     public Color goalReachedColor = Color.blue;
     public Color goalLockedColor = Color.red;
     public GameObject cadenas;
+    public GameObject StopPanel;
 
     private void OnEnable()
     {
@@ -141,7 +142,39 @@ public class UIUpdater : MonoBehaviour
         TMP_Text buttonText = button.GetComponentInChildren<TMP_Text>();
 
         string text = "";
-        switch(button.bitMaskOperator)
+
+         if(levelLoader.levels[levelLoader.currentLevelIndex].showButtonDecimal)
+         {
+             switch(button.bitMaskOperator)
+        {
+            case Operators.AND :
+                text = "& " + button.value;
+                break;
+            case Operators.NAND :
+                text = "~& " + button.value;
+                break;
+            case Operators.OR :
+                text = "| " + button.value;
+                break;
+            case Operators.NOR :
+                text = "~| " + button.value;
+                break;
+            case Operators.XOR :
+                text = "^ " + button.value;
+                break;
+            case Operators.INVERT :
+                text = "~";
+                break;
+            case Operators.SHIFTLEFT :
+                text = "<< " + button.value;
+                break;
+            case Operators.SHIFTRIGHT :
+                text = ">> " + button.value;
+                break;
+        }
+         }
+            else{
+                        switch(button.bitMaskOperator)
         {
             case Operators.AND :
                 text = "& " + ToBinaryString(button.value);
@@ -169,8 +202,21 @@ public class UIUpdater : MonoBehaviour
                 break;
         }
 
+         }
         buttonText.text = text;
+        
     }
+    public void PausedGame(bool isPaused)
+    {
+       
+            StopPanel.SetActive(isPaused);
+           
+        }   
+
+
+
+    
+
 
     public string ToBinaryString(uint number)
     {

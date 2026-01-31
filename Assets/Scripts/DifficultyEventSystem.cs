@@ -7,6 +7,7 @@ public class DifficultyEventSystem : MonoBehaviour
     public float minDelay = 40f;
     public float maxDelay = 90f;
 
+    public DifficultyPopup popup;
     public UnityEvent onDifficultEvent;
 
     private bool isActive = false;
@@ -45,5 +46,12 @@ public class DifficultyEventSystem : MonoBehaviour
     {
         Debug.Log("Difficult Event Triggered!");
         onDifficultEvent?.Invoke();
+        popup.Show();
+    }
+
+        void TriggerPopupEvent()
+    {
+        Debug.Log("Popup Event Triggered");
+        
     }
 }
