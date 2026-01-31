@@ -1,15 +1,24 @@
+using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Rendering.Universal;
 
 [CreateAssetMenu(fileName = "NewLevelData", menuName = "Game/Level Data")]
 public class LevelData : ScriptableObject
 {
+    [Header("Settings")]
+    public int bitLength;
+
     [Header("Numbers")]
     public int baseNumber;
     public int goalNumber;
 
     [Header("Buttons Values")]
-    public int button1Value;
-    public int button2Value;
-    public int button3Value;
-    public int button4Value;
+    public List<BitMaskButton> buttons;
+}
+
+[System.Serializable]
+public struct BitMaskButton
+{
+    public int valueToAdd;
+    public Operators bitMaskOperator;
 }
