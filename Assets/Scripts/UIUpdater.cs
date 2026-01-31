@@ -50,9 +50,17 @@ public class UIUpdater : MonoBehaviour
 
         // Color when goal reached
         currentNumberText.color = numberManager.IsGoalReached()
-            ? goalReachedColor
+            ? goalReachedColor 
             : normalColor;
+          if (numberManager.IsGoalReached())
+        {
             cadenas.GetComponent<ManualUIImageAnimator>().Play();
+        }
+        else
+        {
+            cadenas.GetComponent<ManualUIImageAnimator>().Stop();
+        }
+           
 
         // History
         historyText.text = "";
