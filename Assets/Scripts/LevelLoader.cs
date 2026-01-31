@@ -6,6 +6,7 @@ public class LevelLoader : MonoBehaviour
 
     public NumberManager numberManager;
     public ButtonValueSetter buttonValueSetter;
+    public UIUpdater uiUpdater;
 
     private void Start()
     {
@@ -14,6 +15,7 @@ public class LevelLoader : MonoBehaviour
 
     public void LoadLevel()
     {
+        uiUpdater.bitLength = levelData.bitLength;
         numberManager.InitializeLevel(levelData);
         buttonValueSetter.ApplyLevelData(levelData);
     }
