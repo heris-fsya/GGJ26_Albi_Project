@@ -10,6 +10,7 @@ public class LevelData : ScriptableObject
 
     [Header("Difficulty")]
     public Difficulty difficulty; // "Facile", "Normal", "Difficile"
+    public bool showGoalDecimal; // On / Off pour Binaire / Decimal
 
     [Header("Numbers")]
     public int baseNumber;
