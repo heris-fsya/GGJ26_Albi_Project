@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c77c10dbdfbb6c346b9fed6dfeeb2df9, type: 3}
-  m_Name: Level1
+  m_Name: LevelTest
   m_EditorClassIdentifier: Assembly-CSharp::LevelData
-  bitLength: 4
-  baseNumber: 4
-  goalNumber: 6
+  bitLength: 8
+  baseNumber: 111
+  goalNumber: 64
   buttons:
   - valueToAdd: 4
     bitMaskOperator: 0
@@ -24,3 +24,7 @@ MonoBehaviour:
     bitMaskOperator: 2
   - valueToAdd: 6
     bitMaskOperator: 0
+  - valueToAdd: 1
+    bitMaskOperator: 3
+  - valueToAdd: 2
+    bitMaskOperator: 5

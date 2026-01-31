@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
@@ -5,6 +6,7 @@ using UnityEngine.Events;
 public class NumberManager : MonoBehaviour
 {
     public int currentNumber { get; private set; }
+     public int baseNumber { get; private set; }
     public int goalNumber { get; private set; }
 
     public List<int> history = new List<int>();
@@ -17,6 +19,7 @@ public class NumberManager : MonoBehaviour
 
         goalNumber = levelData.goalNumber;
         currentNumber = levelData.baseNumber;
+        baseNumber = levelData.baseNumber;
 
         history.Add(currentNumber);
 

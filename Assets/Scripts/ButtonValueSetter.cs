@@ -1,20 +1,17 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class ButtonValueSetter : MonoBehaviour
 {
-    [System.Serializable]
-    public class ButtonConfig
-    {
-        public NumberButton button;
-    }
-
-    public ButtonConfig[] buttons; // taille 4
+    public List<NumberButton> buttons;
 
     public void ApplyLevelData(LevelData levelData)
     {
-        buttons[0].button.valueToAdd = levelData.button1Value;
-        buttons[1].button.valueToAdd = levelData.button2Value;
-        buttons[2].button.valueToAdd = levelData.button3Value;
-        buttons[3].button.valueToAdd = levelData.button4Value;
+        for(int i = 0; i < levelData.buttons.Count && i < 8; i++)
+        {
+            buttons[i].gameObject.SetActive(true);
+            buttons[i].valueToAdd = levelData.buttons[i].valueToAdd;
+            buttons[i].bitMaskOperator = levelData.buttons[i].bitMaskOperator;
+        }
     }
 }

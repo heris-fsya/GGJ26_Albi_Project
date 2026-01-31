@@ -1,3 +1,5 @@
+using System;
+using System.ComponentModel;
 using TMPro;
 using UnityEngine;
 
@@ -5,11 +7,14 @@ public class UIUpdater : MonoBehaviour
 {
     [Header("References")]
     public NumberManager numberManager;
+    public int bitLength { get; set; }
+
 
     [Header("Text Elements")]
     public TMP_Text currentNumberText;
     public TMP_Text goalText;
     public TMP_Text historyText;
+    public TMP_Text baseText;
 
     [Header("Colors")]
     public Color normalColor = Color.white;
@@ -33,10 +38,13 @@ public class UIUpdater : MonoBehaviour
     void UpdateUI()
     {
         // Current number
-        currentNumberText.text = numberManager.currentNumber.ToString();
+        currentNumberText.text = ToBinaryString(numberManager.currentNumber);
 
         // Goal
-        goalText.text = numberManager.goalNumber.ToString();
+        goalText.text = ToBinaryString(numberManager.goalNumber);
+
+        // Base number
+        baseText.text = ToBinaryString(numberManager.baseNumber);
 
         // Color when goal reached
         currentNumberText.color = numberManager.IsGoalReached()
@@ -47,7 +55,11 @@ public class UIUpdater : MonoBehaviour
         historyText.text = "";
         foreach (int value in numberManager.history)
         {
-            historyText.text += value + "\n";
+            historyText.text += ToBinaryString(value) + "\n";
         }
+    }
+    public string ToBinaryString(int number)
+    {
+        return Convert.ToString(number, 2).PadLeft(bitLength, '0');
     }
 }
