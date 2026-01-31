@@ -10,7 +10,7 @@ public class ButtonValueSetter : MonoBehaviour
     {
         for(int i = 0; i < levelData.buttons.Count && i < 8; i++)
         {
-            buttons[i].Init(levelData.buttons[i].valueToAdd, levelData.buttons[i].bitMaskOperator);
+            buttons[i].Init(levelData.buttons[i].value, levelData.buttons[i].bitMaskOperator);
             uiUpdater.UpdateButtonText(buttons[i]);
         }
     }

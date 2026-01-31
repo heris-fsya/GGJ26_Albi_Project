@@ -8,7 +8,7 @@ public class NumberButton : MonoBehaviour
     public NumberManager numberManager;
     private TMP_Text buttonText;
 
-    public int valueToAdd;
+    public uint value;
     
     public Operators bitMaskOperator;
 
@@ -17,15 +17,15 @@ public class NumberButton : MonoBehaviour
         buttonText = GetComponentInChildren<TMP_Text>();
     }
 
-    public void Init(int value, Operators bitMaskOperator)
+    public void Init(uint value, Operators bitMaskOperator)
     {
-        this.valueToAdd = value;
+        this.value = value;
         this.bitMaskOperator = bitMaskOperator;
         this.gameObject.SetActive(true);
     }
 
     public void OnButtonPressed()
     {
-        numberManager.Add(valueToAdd);
+        numberManager.Operation(bitMaskOperator, value);
     }
 }

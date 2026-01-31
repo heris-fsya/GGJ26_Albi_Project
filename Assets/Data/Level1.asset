@@ -13,15 +13,16 @@ MonoBehaviour:
   m_Name: Level1
   m_EditorClassIdentifier: Assembly-CSharp::LevelData
   bitLength: 4
-  difficulty: Facile
+  difficulty: 0
+  showGoalDecimal: 0
   baseNumber: 4
   goalNumber: 6
   buttons:
-  - valueToAdd: 4
+  - value: 4
     bitMaskOperator: 0
-  - valueToAdd: 9
+  - value: 9
     bitMaskOperator: 3
-  - valueToAdd: 4
+  - value: 4
     bitMaskOperator: 2
-  - valueToAdd: 6
+  - value: 6
     bitMaskOperator: 0

@@ -13,8 +13,8 @@ public class LevelData : ScriptableObject
     public bool showGoalDecimal; // On / Off pour Binaire / Decimal
 
     [Header("Numbers")]
-    public int baseNumber;
-    public int goalNumber;
+    public uint baseNumber;
+    public uint goalNumber;
 
     [Header("Buttons Values")]
     public List<BitMaskButton> buttons;
@@ -23,6 +23,6 @@ public class LevelData : ScriptableObject
 [System.Serializable]
 public struct BitMaskButton
 {
-    public int valueToAdd;
+    public uint value;
     public Operators bitMaskOperator;
 }
