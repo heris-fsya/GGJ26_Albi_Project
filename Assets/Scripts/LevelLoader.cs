@@ -10,6 +10,7 @@ public class LevelLoader : MonoBehaviour
     public NumberManager numberManager;
     public ButtonValueSetter buttonValueSetter;
     public UIUpdater uiUpdater;
+    public DifficultyEventSystem difficultyEventSystem;
 
     private int currentLevelIndex = 0;
 
@@ -37,6 +38,7 @@ public class LevelLoader : MonoBehaviour
         uiUpdater.bitLength = levelData.bitLength;
         numberManager.InitializeLevel(levelData);
         buttonValueSetter.ApplyLevelData(levelData);
+        difficultyEventSystem.Configure(levelData.difficulty);
     }
 
     public void NextLevel()

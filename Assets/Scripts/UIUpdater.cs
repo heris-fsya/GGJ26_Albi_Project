@@ -43,6 +43,9 @@ public class UIUpdater : MonoBehaviour
         currentNumberText.text = ToBinaryString(numberManager.currentNumber);
 
         // Goal
+        //if(LevelLoader.difficultyEventSystem.levelData.difficulty == "Facile")
+            //goalText.text = numberManager.goalNumber.ToString();
+       // else 
         goalText.text = ToBinaryString(numberManager.goalNumber);
 
         // Base number

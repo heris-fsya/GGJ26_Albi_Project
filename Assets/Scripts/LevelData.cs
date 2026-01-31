@@ -8,6 +8,9 @@ public class LevelData : ScriptableObject
     [Header("Settings")]
     public int bitLength;
 
+    [Header("Difficulty")]
+    public string difficulty; // "Facile", "Normal", "Difficile"
+
     [Header("Numbers")]
     public int baseNumber;
     public int goalNumber;

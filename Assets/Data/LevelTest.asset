@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: LevelTest
   m_EditorClassIdentifier: Assembly-CSharp::LevelData
   bitLength: 8
+  difficulty: Difficile
   baseNumber: 111
   goalNumber: 64
   buttons:
