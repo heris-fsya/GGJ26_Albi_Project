@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Level1
   m_EditorClassIdentifier: Assembly-CSharp::LevelData
   bitLength: 4
+  difficulty: Facile
   baseNumber: 4
   goalNumber: 6
   buttons:
