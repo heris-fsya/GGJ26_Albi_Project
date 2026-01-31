@@ -3697,6 +3697,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bfc5885be3bf72b4c8b00bb46e11c289, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ButtonValueSetter
+  uiUpdater: {fileID: 1327480758}
   buttons:
   - {fileID: 1126784297}
   - {fileID: 100587829}
