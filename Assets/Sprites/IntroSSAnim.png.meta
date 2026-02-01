@@ -1,0 +1,1534 @@
+fileFormatVersion: 2
+guid: 0757ae075d6d9ab4d94c980ae07b3e40
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5547974265193597688
+    second: IntroSSAnim_0
+  - first:
+      213: -3937388429243211620
+    second: IntroSSAnim_1
+  - first:
+      213: -1410059078247731708
+    second: IntroSSAnim_2
+  - first:
+      213: -1514644164914454566
+    second: IntroSSAnim_3
+  - first:
+      213: 3563892966712119326
+    second: IntroSSAnim_4
+  - first:
+      213: -2675361006245503500
+    second: IntroSSAnim_5
+  - first:
+      213: -4857402722029231543
+    second: IntroSSAnim_6
+  - first:
+      213: -61417269203260342
+    second: IntroSSAnim_7
+  - first:
+      213: -5699626584049068461
+    second: IntroSSAnim_8
+  - first:
+      213: -357332801786961171
+    second: IntroSSAnim_9
+  - first:
+      213: 4275194433732855960
+    second: IntroSSAnim_10
+  - first:
+      213: -2498878005371535201
+    second: IntroSSAnim_11
+  - first:
+      213: 170292724772586606
+    second: IntroSSAnim_12
+  - first:
+      213: -6939158859432821465
+    second: IntroSSAnim_13
+  - first:
+      213: 6979350675409125828
+    second: IntroSSAnim_14
+  - first:
+      213: -6258580806994987275
+    second: IntroSSAnim_15
+  - first:
+      213: -875499022532180755
+    second: IntroSSAnim_16
+  - first:
+      213: 7243652718542744343
+    second: IntroSSAnim_17
+  - first:
+      213: 7191802414280759651
+    second: IntroSSAnim_18
+  - first:
+      213: -5002534555895341366
+    second: IntroSSAnim_19
+  - first:
+      213: -1645051670274621902
+    second: IntroSSAnim_20
+  - first:
+      213: 6125691783994584316
+    second: IntroSSAnim_21
+  - first:
+      213: -240790660998352784
+    second: IntroSSAnim_22
+  - first:
+      213: -418724864065497303
+    second: IntroSSAnim_23
+  - first:
+      213: -1700179869478160658
+    second: IntroSSAnim_24
+  - first:
+      213: 1107056280319484484
+    second: IntroSSAnim_25
+  - first:
+      213: -1653403593686174591
+    second: IntroSSAnim_26
+  - first:
+      213: -3398120585938754628
+    second: IntroSSAnim_27
+  - first:
+      213: -338644648706764786
+    second: IntroSSAnim_28
+  - first:
+      213: -6082738126299959921
+    second: IntroSSAnim_29
+  - first:
+      213: -930146015191589617
+    second: IntroSSAnim_30
+  - first:
+      213: -2160274929597452110
+    second: IntroSSAnim_31
+  - first:
+      213: -8167869189276297462
+    second: IntroSSAnim_32
+  - first:
+      213: -8169868764401314265
+    second: IntroSSAnim_33
+  - first:
+      213: -5544175122659499411
+    second: IntroSSAnim_34
+  - first:
+      213: -4024880012982621951
+    second: IntroSSAnim_35
+  - first:
+      213: -92096070336406200
+    second: IntroSSAnim_36
+  - first:
+      213: -8530374417584605297
+    second: IntroSSAnim_37
+  - first:
+      213: 7435869065340446366
+    second: IntroSSAnim_38
+  - first:
+      213: -4883224244076251432
+    second: IntroSSAnim_39
+  - first:
+      213: -5740966189455577414
+    second: IntroSSAnim_40
+  - first:
+      213: -1124827986633592386
+    second: IntroSSAnim_41
+  - first:
+      213: 5391028276854752426
+    second: IntroSSAnim_42
+  - first:
+      213: 276888731172666984
+    second: IntroSSAnim_43
+  - first:
+      213: 5871765299671478143
+    second: IntroSSAnim_44
+  - first:
+      213: 5755613975814354582
+    second: IntroSSAnim_45
+  - first:
+      213: -7585685565990135784
+    second: IntroSSAnim_46
+  - first:
+      213: -4197052461794226873
+    second: IntroSSAnim_47
+  - first:
+      213: 6295802670105317738
+    second: IntroSSAnim_48
+  - first:
+      213: 9004376707785290257
+    second: IntroSSAnim_49
+  - first:
+      213: 4730074507511581432
+    second: IntroSSAnim_50
+  - first:
+      213: 6767125162054672543
+    second: IntroSSAnim_51
+  - first:
+      213: -6008143449582501892
+    second: IntroSSAnim_52
+  - first:
+      213: -8581258229781707846
+    second: IntroSSAnim_53
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: IntroSSAnim_0
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 79
+        width: 82
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 805702cdcc2a103b0800000000000000
+      internalID: -5547974265193597688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IntroSSAnim_1
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 79
+        width: 82
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c90a934b5169b59c0800000000000000
+      internalID: -3937388429243211620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IntroSSAnim_2
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 79
+        width: 82
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40eaab83db67e6ce0800000000000000
+      internalID: -1410059078247731708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IntroSSAnim_3
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 79
+        width: 82
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adfd72d2827eafae0800000000000000
+      internalID: -1514644164914454566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IntroSSAnim_4
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 79
+        width: 82
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e10936a55cd757130800000000000000
+      internalID: 3563892966712119326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IntroSSAnim_5
+      rect:
+        serializedVersion: 2
+        x: 1367
+        y: 79
+        width: 82
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fd1ec8e6553fdad0800000000000000
+      internalID: -2675361006245503500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IntroSSAnim_6
+      rect:
+        serializedVersion: 2
+        x: 1623
+        y: 79
+        width: 82
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 942ae6eb5f9079cb0800000000000000
+      internalID: -4857402722029231543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IntroSSAnim_7
+      rect:
+        serializedVersion: 2
+        x: 1879
+        y: 79
+        width: 82
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4ca01ea15dc52ff0800000000000000
+      internalID: -61417269203260342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IntroSSAnim_8
+      rect:
+        serializedVersion: 2
+        x: 1936
+        y: 11
+        width: 47
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 356d169d1dbd6e0b0800000000000000
+      internalID: -5699626584049068461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IntroSSAnim_9
+      rect:
+        serializedVersion: 2
+        x: 2135
+        y: 79
+        width: 82
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de2a4e2c5bf7a0bf0800000000000000
+      internalID: -357332801786961171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IntroSSAnim_10
+      rect:
+        serializedVersion: 2
+        x: 2190
+        y: 13
+        width: 47
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 898cf50cfaa845b30800000000000000
+      internalID: 4275194433732855960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IntroSSAnim_11
+      rect:
+        serializedVersion: 2
+        x: 2391
+        y: 79
+        width: 82
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f900bc891b3325dd0800000000000000
+      internalID: -2498878005371535201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IntroSSAnim_12
+      rect:
+        serializedVersion: 2
+        x: 2441
+        y: 19
+        width: 47
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6447e7b4500d5200800000000000000
+      internalID: 170292724772586606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IntroSSAnim_13
+      rect:
+        serializedVersion: 2
+        x: 2647
+        y: 79
+        width: 82
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72d708758c723bf90800000000000000
+      internalID: -6939158859432821465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IntroSSAnim_14
+      rect:
+        serializedVersion: 2
+        x: 2696
+        y: 21
+        width: 47
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c1c4aa0672abd060800000000000000
+      internalID: 6979350675409125828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IntroSSAnim_15
+      rect:
+        serializedVersion: 2
+        x: 2903
+        y: 24
+        width: 92
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f67cf85aed0529a0800000000000000
+      internalID: -6258580806994987275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IntroSSAnim_16
+      rect:
+        serializedVersion: 2
+        x: 3159
+        y: 27
+        width: 90
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de484c0174a99d3f0800000000000000
+      internalID: -875499022532180755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IntroSSAnim_17
+      rect:
+        serializedVersion: 2
+        x: 3415
+        y: 32
+        width: 87
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71b680dd4cf968460800000000000000
+      internalID: 7243652718542744343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IntroSSAnim_18
+      rect:
+        serializedVersion: 2
+        x: 3671
+        y: 34
+        width: 84
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3695006213a6ec360800000000000000
+      internalID: 7191802414280759651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IntroSSAnim_19
+      rect:
+        serializedVersion: 2
+        x: 3927
+        y: 37
+        width: 82
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acedd33735d639ab0800000000000000
+      internalID: -5002534555895341366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IntroSSAnim_20
+      rect:
+        serializedVersion: 2
+        x: 4183
+        y: 40
+        width: 82
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23e3e14c83a9b29e0800000000000000
+      internalID: -1645051670274621902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IntroSSAnim_21
+      rect:
+        serializedVersion: 2
+        x: 4439
+        y: 45
+        width: 82
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfca684e834d20550800000000000000
+      internalID: 6125691783994584316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IntroSSAnim_22
+      rect:
+        serializedVersion: 2
+        x: 4695
+        y: 50
+        width: 82
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07036f96b2a88acf0800000000000000
+      internalID: -240790660998352784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IntroSSAnim_23
+      rect:
+        serializedVersion: 2
+        x: 4951
+        y: 54
+        width: 82
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92790c264f3603af0800000000000000
+      internalID: -418724864065497303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IntroSSAnim_24
+      rect:
+        serializedVersion: 2
+        x: 5207
+        y: 58
+        width: 82
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee6fb79aa6fb768e0800000000000000
+      internalID: -1700179869478160658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IntroSSAnim_25
+      rect:
+        serializedVersion: 2
+        x: 5463
+        y: 62
+        width: 82
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 442eece42dd0d5f00800000000000000
+      internalID: 1107056280319484484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IntroSSAnim_26
+      rect:
+        serializedVersion: 2
+        x: 5719
+        y: 62
+        width: 82
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1843bff013eed09e0800000000000000
+      internalID: -1653403593686174591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IntroSSAnim_27
+      rect:
+        serializedVersion: 2
+        x: 5983
+        y: 62
+        width: 73
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb3ad23c45377d0d0800000000000000
+      internalID: -3398120585938754628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IntroSSAnim_28
+      rect:
+        serializedVersion: 2
+        x: 6252
+        y: 62
+        width: 51
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e001fb87c74ec4bf0800000000000000
+      internalID: -338644648706764786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IntroSSAnim_29
+      rect:
+        serializedVersion: 2
+        x: 6512
+        y: 62
+        width: 42
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8d6a20e6e5c59ba0800000000000000
+      internalID: -6082738126299959921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IntroSSAnim_30
+      rect:
+        serializedVersion: 2
+        x: 6769
+        y: 62
+        width: 32
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0d924790257713f0800000000000000
+      internalID: -930146015191589617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IntroSSAnim_31
+      rect:
+        serializedVersion: 2
+        x: 7028
+        y: 64
+        width: 30
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b0792ca5692502e0800000000000000
+      internalID: -2160274929597452110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IntroSSAnim_32
+      rect:
+        serializedVersion: 2
+        x: 7284
+        y: 61
+        width: 33
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0714516f36e5ae80800000000000000
+      internalID: -8167869189276297462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IntroSSAnim_33
+      rect:
+        serializedVersion: 2
+        x: 7519
+        y: 64
+        width: 73
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 726dc4405abce9e80800000000000000
+      internalID: -8169868764401314265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IntroSSAnim_34
+      rect:
+        serializedVersion: 2
+        x: 7759
+        y: 55
+        width: 96
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d62a259a9122f03b0800000000000000
+      internalID: -5544175122659499411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IntroSSAnim_35
+      rect:
+        serializedVersion: 2
+        x: 8008
+        y: 43
+        width: 108
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 109e992f3f0c428c0800000000000000
+      internalID: -4024880012982621951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IntroSSAnim_36
+      rect:
+        serializedVersion: 2
+        x: 8259
+        y: 36
+        width: 120
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84d936aac1fc8bef0800000000000000
+      internalID: -92096070336406200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IntroSSAnim_37
+      rect:
+        serializedVersion: 2
+        x: 8509
+        y: 20
+        width: 133
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f873aceb9a50e9980800000000000000
+      internalID: -8530374417584605297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IntroSSAnim_38
+      rect:
+        serializedVersion: 2
+        x: 8759
+        y: 9
+        width: 144
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e96eeeb9483813760800000000000000
+      internalID: 7435869065340446366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IntroSSAnim_39
+      rect:
+        serializedVersion: 2
+        x: 9011
+        y: 4
+        width: 152
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d672452c6d4b3cb0800000000000000
+      internalID: -4883224244076251432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IntroSSAnim_40
+      rect:
+        serializedVersion: 2
+        x: 9259
+        y: 0
+        width: 168
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abee8f9eaadf350b0800000000000000
+      internalID: -5740966189455577414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IntroSSAnim_41
+      rect:
+        serializedVersion: 2
+        x: 9506
+        y: 0
+        width: 183
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb1794fd7eec360f0800000000000000
+      internalID: -1124827986633592386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IntroSSAnim_42
+      rect:
+        serializedVersion: 2
+        x: 9754
+        y: 0
+        width: 200
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa48308a7a7c0da40800000000000000
+      internalID: 5391028276854752426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IntroSSAnim_43
+      rect:
+        serializedVersion: 2
+        x: 9997
+        y: 0
+        width: 227
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86efadf75d4b7d300800000000000000
+      internalID: 276888731172666984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IntroSSAnim_44
+      rect:
+        serializedVersion: 2
+        x: 10242
+        y: 0
+        width: 252
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7f226b1e63bc7150800000000000000
+      internalID: 5871765299671478143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IntroSSAnim_45
+      rect:
+        serializedVersion: 2
+        x: 10495
+        y: 0
+        width: 2306
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69630bc9a6c00ef40800000000000000
+      internalID: 5755613975814354582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IntroSSAnim_46
+      rect:
+        serializedVersion: 2
+        x: 12805
+        y: 19
+        width: 246
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 818995d1b2b3ab690800000000000000
+      internalID: -7585685565990135784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IntroSSAnim_47
+      rect:
+        serializedVersion: 2
+        x: 13061
+        y: 19
+        width: 246
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74d831fd50311c5c0800000000000000
+      internalID: -4197052461794226873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IntroSSAnim_48
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 0
+        width: 47
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a61559ffb2f2f5750800000000000000
+      internalID: 6295802670105317738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IntroSSAnim_49
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 0
+        width: 47
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 112f75398e8f5fc70800000000000000
+      internalID: 9004376707785290257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IntroSSAnim_50
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 0
+        width: 47
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8facb5d14b994a140800000000000000
+      internalID: 4730074507511581432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IntroSSAnim_51
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 0
+        width: 47
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9060ea2b78a9ed50800000000000000
+      internalID: 6767125162054672543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IntroSSAnim_52
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 1
+        width: 47
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cff7b087d59ce9ca0800000000000000
+      internalID: -6008143449582501892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IntroSSAnim_53
+      rect:
+        serializedVersion: 2
+        x: 1686
+        y: 5
+        width: 47
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab3c6fffa1f39e880800000000000000
+      internalID: -8581258229781707846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      IntroSSAnim_0: -5547974265193597688
+      IntroSSAnim_1: -3937388429243211620
+      IntroSSAnim_10: 4275194433732855960
+      IntroSSAnim_11: -2498878005371535201
+      IntroSSAnim_12: 170292724772586606
+      IntroSSAnim_13: -6939158859432821465
+      IntroSSAnim_14: 6979350675409125828
+      IntroSSAnim_15: -6258580806994987275
+      IntroSSAnim_16: -875499022532180755
+      IntroSSAnim_17: 7243652718542744343
+      IntroSSAnim_18: 7191802414280759651
+      IntroSSAnim_19: -5002534555895341366
+      IntroSSAnim_2: -1410059078247731708
+      IntroSSAnim_20: -1645051670274621902
+      IntroSSAnim_21: 6125691783994584316
+      IntroSSAnim_22: -240790660998352784
+      IntroSSAnim_23: -418724864065497303
+      IntroSSAnim_24: -1700179869478160658
+      IntroSSAnim_25: 1107056280319484484
+      IntroSSAnim_26: -1653403593686174591
+      IntroSSAnim_27: -3398120585938754628
+      IntroSSAnim_28: -338644648706764786
+      IntroSSAnim_29: -6082738126299959921
+      IntroSSAnim_3: -1514644164914454566
+      IntroSSAnim_30: -930146015191589617
+      IntroSSAnim_31: -2160274929597452110
+      IntroSSAnim_32: -8167869189276297462
+      IntroSSAnim_33: -8169868764401314265
+      IntroSSAnim_34: -5544175122659499411
+      IntroSSAnim_35: -4024880012982621951
+      IntroSSAnim_36: -92096070336406200
+      IntroSSAnim_37: -8530374417584605297
+      IntroSSAnim_38: 7435869065340446366
+      IntroSSAnim_39: -4883224244076251432
+      IntroSSAnim_4: 3563892966712119326
+      IntroSSAnim_40: -5740966189455577414
+      IntroSSAnim_41: -1124827986633592386
+      IntroSSAnim_42: 5391028276854752426
+      IntroSSAnim_43: 276888731172666984
+      IntroSSAnim_44: 5871765299671478143
+      IntroSSAnim_45: 5755613975814354582
+      IntroSSAnim_46: -7585685565990135784
+      IntroSSAnim_47: -4197052461794226873
+      IntroSSAnim_48: 6295802670105317738
+      IntroSSAnim_49: 9004376707785290257
+      IntroSSAnim_5: -2675361006245503500
+      IntroSSAnim_50: 4730074507511581432
+      IntroSSAnim_51: 6767125162054672543
+      IntroSSAnim_52: -6008143449582501892
+      IntroSSAnim_53: -8581258229781707846
+      IntroSSAnim_6: -4857402722029231543
+      IntroSSAnim_7: -61417269203260342
+      IntroSSAnim_8: -5699626584049068461
+      IntroSSAnim_9: -357332801786961171
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
