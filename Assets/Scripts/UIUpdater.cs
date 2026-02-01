@@ -82,9 +82,9 @@ public class UIUpdater : MonoBehaviour
         portraitContentAnimator.ResetAnimation();
         portraitContentAnimator.gameObject.SetActive(false);
         webcam.portraitSuiviAnimator.gameObject.SetActive(true);
-
+        PausedGame(false);
         levelLoader.NextLevel();
-            PausedGame(false);
+            
         isLevelEnding = false;
     }
 
@@ -215,7 +215,16 @@ public class UIUpdater : MonoBehaviour
            
         }   
 
+public void ResetUI()
+{
+    currentNumberText.text = "";
+    goalText.text = "";
+    baseText.text = "";
 
+    historyText.text = "";
+    IDText.text = "";
+    
+}
 
     
 

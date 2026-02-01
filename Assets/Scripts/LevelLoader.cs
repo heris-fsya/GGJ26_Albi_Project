@@ -115,6 +115,18 @@ public class LevelLoader : MonoBehaviour
         LoadLevel(currentLevelIndex);
     }
 
+        public void ResetGame()
+    {
+
+        currentLevelIndex = 0;
+
+        numberManager.ResetState();
+        uiUpdater.ResetUI();
+        buttonValueSetter.ResetButtons();
+        StopAllCoroutines();
+         LoadLevel(currentLevelIndex);
+    }
+
     public void setEasyLevels()
     {
         difficultychoice = Difficulty.EASY;
