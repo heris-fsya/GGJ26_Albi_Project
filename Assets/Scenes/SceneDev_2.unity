@@ -6334,12 +6334,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d1ec42fdda5a9394fbb69d03e0966f07, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SFXManager
-  audioSource: {fileID: 1250933226}
+  sfxSource: {fileID: 1250933226}
+  musicSource: {fileID: 519420033}
+  audioListener: {fileID: 1370708450}
   buttonClick: {fileID: 8300000, guid: 3317b4989e9f8db41a3f2e08e4e7b7bc, type: 3}
   popupAppear: {fileID: 8300000, guid: cdeab84bbd59dd044971770e7a42f655, type: 3}
   goalReached: {fileID: 8300000, guid: 57db50b309fc6a344b316d5ef65f1a59, type: 3}
   wrongAction: {fileID: 8300000, guid: 3fb1e1112dad7fe4e845cf0edfb7e9b3, type: 3}
   restartLevel: {fileID: 8300000, guid: cdab4eb0d0647b14d8062f0047ca84c8, type: 3}
+  gameplayMusic: {fileID: 8300000, guid: 9a00eb21b4c379d45ba72a2d7439a795, type: 3}
+  victoryMusic: {fileID: 8300000, guid: 3adfd7630adf32d44a9474a55f88dc69, type: 3}
 --- !u!4 &1250933228
 Transform:
   m_ObjectHideFlags: 0
