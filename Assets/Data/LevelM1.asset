@@ -13,25 +13,21 @@ MonoBehaviour:
   m_Name: LevelM1
   m_EditorClassIdentifier: Assembly-CSharp::LevelData
   bitLength: 8
-  difficulty: 2
+  difficulty: 1
   showGoalDecimal: 1
-  showButtonDecimal: 1
-  baseNumber: 0
-  goalNumber: 214
+  showButtonDecimal: 0
+  baseNumber: 45
+  goalNumber: 32
   buttons:
-  - value: 15
-    bitMaskOperator: 2
-  - value: 51
-    bitMaskOperator: 4
-  - value: 238
+  - value: 240
     bitMaskOperator: 0
-  - value: 195
-    bitMaskOperator: 1
-  - value: 41
-    bitMaskOperator: 3
-  - value: 255
-    bitMaskOperator: 4
-  - value: 214
-    bitMaskOperator: 0
-  - value: 128
+  - value: 2
     bitMaskOperator: 2
+  - value: 13
+    bitMaskOperator: 4
+  - value: 63
+    bitMaskOperator: 0
+  - value: 16
+    bitMaskOperator: 2
+  - value: 0
+    bitMaskOperator: 5

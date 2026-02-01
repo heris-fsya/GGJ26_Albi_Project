@@ -5,12 +5,14 @@ using System.Diagnostics;
 using System.Collections;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class UIUpdater : MonoBehaviour
 {
     [Header("References")]
     public NumberManager numberManager;
     public LevelLoader levelLoader;
+    public Webcam webcam;
     public int bitLength { get; set; }
     private bool isLevelEnding = false;
 
@@ -24,6 +26,7 @@ public class UIUpdater : MonoBehaviour
     [Header("Deco")]
     public Color normalColor = Color.white;
     public Color goalReachedColor = Color.blue;
+    public Color goalLockedColor = Color.red;
     public GameObject cadenas;
     public GameObject StopPanel;
 
@@ -39,32 +42,69 @@ public class UIUpdater : MonoBehaviour
 
     private void Start()
     {
+        cadenas.GetComponent<Image>().color = goalLockedColor;
         UpdateUI();
     }
 
-private void Update()
-{
-    if (numberManager.IsGoalReached() && !isLevelEnding)
+    private void Update()
     {
-        StartCoroutine(LevelCompleteRoutine());
+        if (numberManager.IsGoalReached() && !isLevelEnding)
+        {
+            StartCoroutine(LevelCompleteRoutine());
+        }
     }
-}
 
-private IEnumerator LevelCompleteRoutine()
-{
-    isLevelEnding = true;
+    private IEnumerator LevelCompleteRoutine()
+    {
+        isLevelEnding = true;
 
-    UnityEngine.Debug.Log("Niveau terminé !");
+        UnityEngine.Debug.Log("Niveau terminé !");
 
-    cadenas.GetComponent<ManualUIImageAnimator>().Play();
+        // Setup
+        ManualUIImageAnimator cadenasAnimator = cadenas.GetComponent<ManualUIImageAnimator>();
+        ManualSpriteAnimator portraitContentAnimator = webcam.portraitContentAnimator;
+        webcam.portraitSuiviAnimator.gameObject.SetActive(false);
+        portraitContentAnimator.gameObject.SetActive(true);
 
-    yield return new WaitForSeconds(1f);
+        // Start animation
+        cadenasAnimator.Play();
+        cadenas.GetComponent<Image>().color = goalReachedColor;
+        portraitContentAnimator.Play();
 
-    levelLoader.NextLevel();
+        yield return new WaitForSeconds(2f);
 
-    isLevelEnding = false;
-}
+         // Stop animations
+        cadenasAnimator.Stop();
+        cadenasAnimator.ResetAnimation();
+        cadenas.GetComponent<Image>().color = goalLockedColor;
+        portraitContentAnimator.Stop();
+        portraitContentAnimator.ResetAnimation();
+        portraitContentAnimator.gameObject.SetActive(false);
+        webcam.portraitSuiviAnimator.gameObject.SetActive(true);
 
+        levelLoader.NextLevel();
+
+        isLevelEnding = false;
+    }
+
+    public IEnumerator LevelResetRoutine()
+    {
+        // Setup
+        ManualSpriteAnimator portraitColereAnimator = webcam.portraitColereAnimator;
+        webcam.portraitSuiviAnimator.gameObject.SetActive(false);
+        portraitColereAnimator.gameObject.SetActive(true);
+
+        // Start animation
+        portraitColereAnimator.Play();
+
+        yield return new WaitForSeconds(2f);
+
+         // Stop animations
+        portraitColereAnimator.Stop();
+        portraitColereAnimator.ResetAnimation();
+        portraitColereAnimator.gameObject.SetActive(false);
+        webcam.portraitSuiviAnimator.gameObject.SetActive(true);
+    }
 
     void UpdateUI()
     {

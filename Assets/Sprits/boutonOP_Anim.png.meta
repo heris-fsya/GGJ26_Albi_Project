@@ -1,0 +1,598 @@
+fileFormatVersion: 2
+guid: d38982d00cd21de45a32404f3558d3d7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4699510116321250514
+    second: boutonOP_Anim_0
+  - first:
+      213: -4422451064301510976
+    second: boutonOP_Anim_1
+  - first:
+      213: 1309732498815641068
+    second: boutonOP_Anim_2
+  - first:
+      213: -8417910431152615185
+    second: boutonOP_Anim_3
+  - first:
+      213: -3738077896099454328
+    second: boutonOP_Anim_4
+  - first:
+      213: 2877904794214362663
+    second: boutonOP_Anim_5
+  - first:
+      213: -2276658871457607875
+    second: boutonOP_Anim_6
+  - first:
+      213: -7961620995778218222
+    second: boutonOP_Anim_7
+  - first:
+      213: -6989193882538772969
+    second: boutonOP_Anim_8
+  - first:
+      213: -4588704862658955259
+    second: boutonOP_Anim_9
+  - first:
+      213: 1080252865891760953
+    second: boutonOP_Anim_10
+  - first:
+      213: 4053473926217196956
+    second: boutonOP_Anim_11
+  - first:
+      213: 1685784908282622747
+    second: boutonOP_Anim_12
+  - first:
+      213: 8718347134036403309
+    second: boutonOP_Anim_13
+  - first:
+      213: -1680885812839390235
+    second: boutonOP_Anim_14
+  - first:
+      213: 8016350741085917349
+    second: boutonOP_Anim_15
+  - first:
+      213: -3842024120576816583
+    second: boutonOP_Anim_16
+  - first:
+      213: -5921655065308095461
+    second: boutonOP_Anim_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: boutonOP_Anim_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 11
+        width: 106
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e233152c27cf7ceb0800000000000000
+      internalID: -4699510116321250514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boutonOP_Anim_1
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 11
+        width: 106
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ce92cb203c40a2c0800000000000000
+      internalID: -4422451064301510976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boutonOP_Anim_2
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 11
+        width: 106
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce5e0b6b4ca1d2210800000000000000
+      internalID: 1309732498815641068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boutonOP_Anim_3
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 11
+        width: 106
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe0d71810139d2b80800000000000000
+      internalID: -8417910431152615185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boutonOP_Anim_4
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 11
+        width: 106
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 882a04c65fdaf1cc0800000000000000
+      internalID: -3738077896099454328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boutonOP_Anim_5
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 11
+        width: 106
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72e6a8c992f50f720800000000000000
+      internalID: 2877904794214362663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boutonOP_Anim_6
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 11
+        width: 106
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3f070491dea760e0800000000000000
+      internalID: -2276658871457607875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boutonOP_Anim_7
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 11
+        width: 106
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 217f85603e3a28190800000000000000
+      internalID: -7961620995778218222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boutonOP_Anim_8
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 11
+        width: 106
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71671f4b135610f90800000000000000
+      internalID: -6989193882538772969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boutonOP_Anim_9
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 11
+        width: 106
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 508fa1a4d35a150c0800000000000000
+      internalID: -4588704862658955259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boutonOP_Anim_10
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 11
+        width: 106
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93b73131244ddfe00800000000000000
+      internalID: 1080252865891760953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boutonOP_Anim_11
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 11
+        width: 106
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c95eb764f05d04830800000000000000
+      internalID: 4053473926217196956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boutonOP_Anim_12
+      rect:
+        serializedVersion: 2
+        x: 1547
+        y: 11
+        width: 106
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1376e1417c156710800000000000000
+      internalID: 1685784908282622747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boutonOP_Anim_13
+      rect:
+        serializedVersion: 2
+        x: 1675
+        y: 11
+        width: 106
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d64e8c0d68acdf870800000000000000
+      internalID: 8718347134036403309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boutonOP_Anim_14
+      rect:
+        serializedVersion: 2
+        x: 1803
+        y: 11
+        width: 106
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e3e6b9424b4ca8e0800000000000000
+      internalID: -1680885812839390235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boutonOP_Anim_15
+      rect:
+        serializedVersion: 2
+        x: 1931
+        y: 11
+        width: 106
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a09d5dc68ccf3f60800000000000000
+      internalID: 8016350741085917349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boutonOP_Anim_16
+      rect:
+        serializedVersion: 2
+        x: 2059
+        y: 11
+        width: 106
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93a49821b636eaac0800000000000000
+      internalID: -3842024120576816583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boutonOP_Anim_17
+      rect:
+        serializedVersion: 2
+        x: 2187
+        y: 11
+        width: 106
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1c1be5a71e02dda0800000000000000
+      internalID: -5921655065308095461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      boutonOP_Anim_0: -4699510116321250514
+      boutonOP_Anim_1: -4422451064301510976
+      boutonOP_Anim_10: 1080252865891760953
+      boutonOP_Anim_11: 4053473926217196956
+      boutonOP_Anim_12: 1685784908282622747
+      boutonOP_Anim_13: 8718347134036403309
+      boutonOP_Anim_14: -1680885812839390235
+      boutonOP_Anim_15: 8016350741085917349
+      boutonOP_Anim_16: -3842024120576816583
+      boutonOP_Anim_17: -5921655065308095461
+      boutonOP_Anim_2: 1309732498815641068
+      boutonOP_Anim_3: -8417910431152615185
+      boutonOP_Anim_4: -3738077896099454328
+      boutonOP_Anim_5: 2877904794214362663
+      boutonOP_Anim_6: -2276658871457607875
+      boutonOP_Anim_7: -7961620995778218222
+      boutonOP_Anim_8: -6989193882538772969
+      boutonOP_Anim_9: -4588704862658955259
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
