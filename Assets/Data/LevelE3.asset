@@ -20,6 +20,6 @@ MonoBehaviour:
   goalNumber: 7
   buttons:
   - value: 1
-    bitMaskOperator: 0
-  - value: 0
+    bitMaskOperator: 2
+  - value: 1
     bitMaskOperator: 6
