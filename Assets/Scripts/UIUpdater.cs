@@ -127,7 +127,7 @@ public class UIUpdater : MonoBehaviour
         }
 
         // Base number
-        baseText.text = ToBinaryString(numberManager.baseNumber);
+        baseText.text = "<b>Base Number:</b> " + ToBinaryString(numberManager.baseNumber);
 
         // Color when goal reached
         currentNumberText.color = numberManager.IsGoalReached()

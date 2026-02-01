@@ -262,6 +262,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 2018298561}
+        m_TargetAssemblyTypeName: StartAnimation, Assembly-CSharp
+        m_MethodName: PlayAnimation
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &7120073
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3896,7 +3908,7 @@ MonoBehaviour:
     <i>Exis </i>
 
 
-    
+
 
     <b>Animations
     & Assets Graphiques</b>
@@ -4015,8 +4027,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -30.61}
-  m_SizeDelta: {x: 264.26, y: 26.7}
+  m_AnchoredPosition: {x: -33.8, y: 63.915}
+  m_SizeDelta: {x: 428.88, y: 14.77}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &596369317
 MonoBehaviour:
@@ -4038,7 +4050,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'base Number '
+  m_text: 'base Number :     0001 0101 0'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4bd8e333a56ddec4db4791704473a534, type: 2}
   m_sharedMaterial: {fileID: -8297937209397420652, guid: 4bd8e333a56ddec4db4791704473a534, type: 2}
@@ -4047,8 +4059,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4290895199
-  m_fontColor: {r: 0.3725525, g: 0.8679245, b: 0.75860816, a: 1}
+    rgba: 4287009376
+  m_fontColor: {r: 0.3760028, g: 0.57137775, b: 0.52726084, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -4065,8 +4077,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 15
-  m_fontSizeBase: 15
+  m_fontSize: 8
+  m_fontSizeBase: 8
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -4699,7 +4711,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0.069}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 56.2}
+  m_AnchoredPosition: {x: -1.2, y: 41.3}
   m_SizeDelta: {x: 400.67, y: 32.791}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &708994701
@@ -6885,6 +6897,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 2018298561}
+        m_TargetAssemblyTypeName: StartAnimation, Assembly-CSharp
+        m_MethodName: PlayAnimation
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &1090327809
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7938,6 +7962,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 2018298561}
+        m_TargetAssemblyTypeName: StartAnimation, Assembly-CSharp
+        m_MethodName: PlayAnimation
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &1276260981
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8176,7 +8212,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -5.3, y: 17.7}
+  m_AnchoredPosition: {x: -5.299999, y: 17.7}
   m_SizeDelta: {x: -19.63, y: -84.78}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1304962633
@@ -10332,8 +10368,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2.93, y: 25.96}
-  m_SizeDelta: {x: 205.85, y: 51.92}
+  m_AnchoredPosition: {x: 1.73, y: -1.08}
+  m_SizeDelta: {x: 205.85, y: 76.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1833095991
 MonoBehaviour:
@@ -11372,9 +11408,14 @@ MonoBehaviour:
   levelsEasy:
   - {fileID: 11400000, guid: b55a43251f0714842b87b6e5a73b5ee2, type: 2}
   - {fileID: 11400000, guid: 3f61deab8a119944bbb05eb392354c46, type: 2}
+  - {fileID: 11400000, guid: 39795153998423e46a10f0b89d86c6bf, type: 2}
+  - {fileID: 11400000, guid: a4ff31a4bc77cb74996fc42e0ef0a1f9, type: 2}
   levelsMedium:
   - {fileID: 11400000, guid: 766a8f006a5763b429f164be8e390b8b, type: 2}
   - {fileID: 11400000, guid: b93605d4968b73d4e833838ea5c3f55e, type: 2}
+  - {fileID: 11400000, guid: 67e75f640d78ae341b0ee961b8cde216, type: 2}
+  - {fileID: 11400000, guid: 0741b847a7f12664ea505a40a0bcb903, type: 2}
+  - {fileID: 11400000, guid: 743b6f469488b8f4cafaabf1d899d668, type: 2}
   levelsHard:
   - {fileID: 11400000, guid: d3bfc29fc2b50794c94958cf06419b32, type: 2}
   - {fileID: 11400000, guid: 58477e1cdd559c94c8007ef89021b9c4, type: 2}
@@ -11629,6 +11670,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::StartAnimation
   screen: {fileID: 430523122}
   animationDuration: 4.6
+  animator: {fileID: 862788086}
 --- !u!1 &2018804505
 GameObject:
   m_ObjectHideFlags: 0

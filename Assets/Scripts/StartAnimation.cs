@@ -4,13 +4,10 @@ using UnityEngine;
 public class StartAnimation : MonoBehaviour
 {
     public GameObject screen;
-    public float animationDuration = 4.3f;
-    private ManualSpriteAnimator animator;
-
-    void OnEnable()
+    public float animationDuration = 4.6f;
+    public ManualSpriteAnimator animator;
+    public void PlayAnimation()
     {
-        if(!animator) animator = GetComponentInChildren<ManualSpriteAnimator>();
-
         screen.SetActive(false);
         animator.Play();
         StartCoroutine(StartAnimationDelay());
