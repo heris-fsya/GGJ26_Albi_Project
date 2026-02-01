@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 9ccfc241ade0c7e4f92469dca14dca8f
+guid: 72e795b03ce25ec4b8860eaf21026b24
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1391367447258389341
-    second: Banniere_0
+      213: 5984812077627300118
+    second: boutonOP_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,17 +96,30 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 16384
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Banniere_0
+      name: boutonOP_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 184
-        height: 112
+        x: 11
+        y: 11
+        width: 106
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d5bd0ed42512f4310800000000000000
-      internalID: 1391367447258389341
+      spriteID: 619517e20e25e0350800000000000000
+      internalID: 5984812077627300118
       vertices: []
       indices: 
       edges: []
@@ -135,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Banniere_0: 1391367447258389341
+      boutonOP_0: 5984812077627300118
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

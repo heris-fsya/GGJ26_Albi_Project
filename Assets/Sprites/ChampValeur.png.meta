@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 72e795b03ce25ec4b8860eaf21026b24
+guid: 868c270c17e737a41846bc5a0c39235c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5984812077627300118
-    second: boutonOP_0
+      213: -1809790814061364698
+    second: ChampValeur_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,16 +96,29 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 16384
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: boutonOP_0
+      name: ChampValeur_0
       rect:
         serializedVersion: 2
-        x: 11
+        x: 13
         y: 11
-        width: 106
+        width: 102
         height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -115,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 619517e20e25e0350800000000000000
-      internalID: 5984812077627300118
+      spriteID: 62a7b12e7d452e6e0800000000000000
+      internalID: -1809790814061364698
       vertices: []
       indices: 
       edges: []
@@ -135,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      boutonOP_0: 5984812077627300118
+      ChampValeur_0: -1809790814061364698
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
