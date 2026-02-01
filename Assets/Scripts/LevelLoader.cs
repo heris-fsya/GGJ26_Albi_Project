@@ -5,6 +5,10 @@ public class LevelLoader : MonoBehaviour
 {
     [Header("Levels")]
     public List<LevelData> levels = new List<LevelData>();
+    public List<LevelData> levelsEasy = new List<LevelData>();
+    public List<LevelData> levelsMedium = new List<LevelData>();
+    public List<LevelData> levelsHard = new List<LevelData>();
+    //public List<LevelData> levelsExtrem = new List<LevelData>();
 
     [Header("References")]
     public NumberManager numberManager;
@@ -12,8 +16,14 @@ public class LevelLoader : MonoBehaviour
     public UIUpdater uiUpdater;
     public DifficultyEventSystem difficultyEventSystem;
 
-    public int currentLevelIndex = 0;
 
+    public int currentLevelIndex = 0;
+private void Awake()
+    {
+        // You can choose levels based on difficulty here if needed
+        // For example, to load only easy levels:
+        // levels = levelsEasy;
+    }
     private void Start()
     {
         LoadLevel(currentLevelIndex);
@@ -39,6 +49,7 @@ public class LevelLoader : MonoBehaviour
         numberManager.InitializeLevel(levelData);
         buttonValueSetter.ApplyLevelData(levelData);
         difficultyEventSystem.Configure(levelData.difficulty);
+        difficultyEventSystem.setAudioClip(levelData.difficulty);
     }
 
     public void NextLevel()
