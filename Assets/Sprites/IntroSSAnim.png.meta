@@ -275,12 +275,12 @@ TextureImporter:
       name: IntroSSAnim_0
       rect:
         serializedVersion: 2
-        x: 87
-        y: 79
-        width: 82
-        height: 114
+        x: 0
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -297,12 +297,12 @@ TextureImporter:
       name: IntroSSAnim_1
       rect:
         serializedVersion: 2
-        x: 343
-        y: 79
-        width: 82
-        height: 114
+        x: 256
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -319,12 +319,12 @@ TextureImporter:
       name: IntroSSAnim_2
       rect:
         serializedVersion: 2
-        x: 599
-        y: 79
-        width: 82
-        height: 114
+        x: 512
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -341,12 +341,12 @@ TextureImporter:
       name: IntroSSAnim_3
       rect:
         serializedVersion: 2
-        x: 855
-        y: 79
-        width: 82
-        height: 114
+        x: 768
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -363,12 +363,12 @@ TextureImporter:
       name: IntroSSAnim_4
       rect:
         serializedVersion: 2
-        x: 1111
-        y: 79
-        width: 82
-        height: 114
+        x: 1024
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -385,12 +385,12 @@ TextureImporter:
       name: IntroSSAnim_5
       rect:
         serializedVersion: 2
-        x: 1367
-        y: 79
-        width: 82
-        height: 114
+        x: 1280
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -407,12 +407,12 @@ TextureImporter:
       name: IntroSSAnim_6
       rect:
         serializedVersion: 2
-        x: 1623
-        y: 79
-        width: 82
-        height: 114
+        x: 1536
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -429,12 +429,12 @@ TextureImporter:
       name: IntroSSAnim_7
       rect:
         serializedVersion: 2
-        x: 1879
-        y: 79
-        width: 82
-        height: 114
+        x: 1792
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -451,12 +451,12 @@ TextureImporter:
       name: IntroSSAnim_8
       rect:
         serializedVersion: 2
-        x: 1936
-        y: 11
-        width: 47
-        height: 71
+        x: 2048
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -473,12 +473,12 @@ TextureImporter:
       name: IntroSSAnim_9
       rect:
         serializedVersion: 2
-        x: 2135
-        y: 79
-        width: 82
-        height: 114
+        x: 2304
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -495,12 +495,12 @@ TextureImporter:
       name: IntroSSAnim_10
       rect:
         serializedVersion: 2
-        x: 2190
-        y: 13
-        width: 47
-        height: 71
+        x: 2560
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -517,12 +517,12 @@ TextureImporter:
       name: IntroSSAnim_11
       rect:
         serializedVersion: 2
-        x: 2391
-        y: 79
-        width: 82
-        height: 114
+        x: 2816
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -539,12 +539,12 @@ TextureImporter:
       name: IntroSSAnim_12
       rect:
         serializedVersion: 2
-        x: 2441
-        y: 19
-        width: 47
-        height: 71
+        x: 3072
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -561,12 +561,12 @@ TextureImporter:
       name: IntroSSAnim_13
       rect:
         serializedVersion: 2
-        x: 2647
-        y: 79
-        width: 82
-        height: 114
+        x: 3328
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -583,12 +583,12 @@ TextureImporter:
       name: IntroSSAnim_14
       rect:
         serializedVersion: 2
-        x: 2696
-        y: 21
-        width: 47
-        height: 71
+        x: 3584
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -605,12 +605,12 @@ TextureImporter:
       name: IntroSSAnim_15
       rect:
         serializedVersion: 2
-        x: 2903
-        y: 24
-        width: 92
-        height: 169
+        x: 3840
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -627,12 +627,12 @@ TextureImporter:
       name: IntroSSAnim_16
       rect:
         serializedVersion: 2
-        x: 3159
-        y: 27
-        width: 90
-        height: 166
+        x: 4096
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -649,12 +649,12 @@ TextureImporter:
       name: IntroSSAnim_17
       rect:
         serializedVersion: 2
-        x: 3415
-        y: 32
-        width: 87
-        height: 161
+        x: 4352
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -671,12 +671,12 @@ TextureImporter:
       name: IntroSSAnim_18
       rect:
         serializedVersion: 2
-        x: 3671
-        y: 34
-        width: 84
-        height: 159
+        x: 4608
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -693,12 +693,12 @@ TextureImporter:
       name: IntroSSAnim_19
       rect:
         serializedVersion: 2
-        x: 3927
-        y: 37
-        width: 82
-        height: 156
+        x: 4864
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -715,12 +715,12 @@ TextureImporter:
       name: IntroSSAnim_20
       rect:
         serializedVersion: 2
-        x: 4183
-        y: 40
-        width: 82
-        height: 153
+        x: 5120
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -737,12 +737,12 @@ TextureImporter:
       name: IntroSSAnim_21
       rect:
         serializedVersion: 2
-        x: 4439
-        y: 45
-        width: 82
-        height: 148
+        x: 5376
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -759,12 +759,12 @@ TextureImporter:
       name: IntroSSAnim_22
       rect:
         serializedVersion: 2
-        x: 4695
-        y: 50
-        width: 82
-        height: 143
+        x: 5632
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -781,12 +781,12 @@ TextureImporter:
       name: IntroSSAnim_23
       rect:
         serializedVersion: 2
-        x: 4951
-        y: 54
-        width: 82
-        height: 139
+        x: 5888
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -803,12 +803,12 @@ TextureImporter:
       name: IntroSSAnim_24
       rect:
         serializedVersion: 2
-        x: 5207
-        y: 58
-        width: 82
-        height: 135
+        x: 6144
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -825,12 +825,12 @@ TextureImporter:
       name: IntroSSAnim_25
       rect:
         serializedVersion: 2
-        x: 5463
-        y: 62
-        width: 82
-        height: 131
+        x: 6400
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -847,12 +847,12 @@ TextureImporter:
       name: IntroSSAnim_26
       rect:
         serializedVersion: 2
-        x: 5719
-        y: 62
-        width: 82
-        height: 131
+        x: 6656
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -869,12 +869,12 @@ TextureImporter:
       name: IntroSSAnim_27
       rect:
         serializedVersion: 2
-        x: 5983
-        y: 62
-        width: 73
-        height: 131
+        x: 6912
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -891,12 +891,12 @@ TextureImporter:
       name: IntroSSAnim_28
       rect:
         serializedVersion: 2
-        x: 6252
-        y: 62
-        width: 51
-        height: 129
+        x: 7168
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -913,12 +913,12 @@ TextureImporter:
       name: IntroSSAnim_29
       rect:
         serializedVersion: 2
-        x: 6512
-        y: 62
-        width: 42
-        height: 129
+        x: 7424
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -935,12 +935,12 @@ TextureImporter:
       name: IntroSSAnim_30
       rect:
         serializedVersion: 2
-        x: 6769
-        y: 62
-        width: 32
-        height: 128
+        x: 7680
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -957,12 +957,12 @@ TextureImporter:
       name: IntroSSAnim_31
       rect:
         serializedVersion: 2
-        x: 7028
-        y: 64
-        width: 30
-        height: 126
+        x: 7936
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -979,12 +979,12 @@ TextureImporter:
       name: IntroSSAnim_32
       rect:
         serializedVersion: 2
-        x: 7284
-        y: 61
-        width: 33
-        height: 129
+        x: 8192
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1001,12 +1001,12 @@ TextureImporter:
       name: IntroSSAnim_33
       rect:
         serializedVersion: 2
-        x: 7519
-        y: 64
-        width: 73
-        height: 129
+        x: 8448
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1023,12 +1023,12 @@ TextureImporter:
       name: IntroSSAnim_34
       rect:
         serializedVersion: 2
-        x: 7759
-        y: 55
-        width: 96
-        height: 147
+        x: 8704
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1045,12 +1045,12 @@ TextureImporter:
       name: IntroSSAnim_35
       rect:
         serializedVersion: 2
-        x: 8008
-        y: 43
-        width: 108
-        height: 163
+        x: 8960
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1067,12 +1067,12 @@ TextureImporter:
       name: IntroSSAnim_36
       rect:
         serializedVersion: 2
-        x: 8259
-        y: 36
-        width: 120
-        height: 178
+        x: 9216
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1089,12 +1089,12 @@ TextureImporter:
       name: IntroSSAnim_37
       rect:
         serializedVersion: 2
-        x: 8509
-        y: 20
-        width: 133
-        height: 189
+        x: 9472
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1111,12 +1111,12 @@ TextureImporter:
       name: IntroSSAnim_38
       rect:
         serializedVersion: 2
-        x: 8759
-        y: 9
-        width: 144
-        height: 204
+        x: 9728
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1133,12 +1133,12 @@ TextureImporter:
       name: IntroSSAnim_39
       rect:
         serializedVersion: 2
-        x: 9011
-        y: 4
-        width: 152
-        height: 214
+        x: 9984
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1155,12 +1155,12 @@ TextureImporter:
       name: IntroSSAnim_40
       rect:
         serializedVersion: 2
-        x: 9259
+        x: 10240
         y: 0
-        width: 168
-        height: 226
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1177,12 +1177,12 @@ TextureImporter:
       name: IntroSSAnim_41
       rect:
         serializedVersion: 2
-        x: 9506
+        x: 10496
         y: 0
-        width: 183
-        height: 230
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1199,12 +1199,12 @@ TextureImporter:
       name: IntroSSAnim_42
       rect:
         serializedVersion: 2
-        x: 9754
+        x: 10752
         y: 0
-        width: 200
-        height: 237
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1221,12 +1221,12 @@ TextureImporter:
       name: IntroSSAnim_43
       rect:
         serializedVersion: 2
-        x: 9997
+        x: 11008
         y: 0
-        width: 227
-        height: 249
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1243,12 +1243,12 @@ TextureImporter:
       name: IntroSSAnim_44
       rect:
         serializedVersion: 2
-        x: 10242
+        x: 11264
         y: 0
-        width: 252
+        width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1265,12 +1265,12 @@ TextureImporter:
       name: IntroSSAnim_45
       rect:
         serializedVersion: 2
-        x: 10495
+        x: 11520
         y: 0
-        width: 2306
+        width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1287,12 +1287,12 @@ TextureImporter:
       name: IntroSSAnim_46
       rect:
         serializedVersion: 2
-        x: 12805
-        y: 19
-        width: 246
-        height: 218
+        x: 11776
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1309,12 +1309,12 @@ TextureImporter:
       name: IntroSSAnim_47
       rect:
         serializedVersion: 2
-        x: 13061
-        y: 19
-        width: 246
-        height: 218
+        x: 12032
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1331,12 +1331,12 @@ TextureImporter:
       name: IntroSSAnim_48
       rect:
         serializedVersion: 2
-        x: 421
+        x: 12288
         y: 0
-        width: 47
-        height: 51
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1353,12 +1353,12 @@ TextureImporter:
       name: IntroSSAnim_49
       rect:
         serializedVersion: 2
-        x: 675
+        x: 12544
         y: 0
-        width: 47
-        height: 57
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1375,12 +1375,12 @@ TextureImporter:
       name: IntroSSAnim_50
       rect:
         serializedVersion: 2
-        x: 928
+        x: 12800
         y: 0
-        width: 47
-        height: 61
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1397,12 +1397,12 @@ TextureImporter:
       name: IntroSSAnim_51
       rect:
         serializedVersion: 2
-        x: 1181
+        x: 13056
         y: 0
-        width: 47
-        height: 66
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1415,55 +1415,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: IntroSSAnim_52
-      rect:
-        serializedVersion: 2
-        x: 1434
-        y: 1
-        width: 47
-        height: 71
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cff7b087d59ce9ca0800000000000000
-      internalID: -6008143449582501892
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IntroSSAnim_53
-      rect:
-        serializedVersion: 2
-        x: 1686
-        y: 5
-        width: 47
-        height: 71
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ab3c6fffa1f39e880800000000000000
-      internalID: -8581258229781707846
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: dd31e546486e2804695eb50fffde891b
     internalID: 0
     vertices: []
     indices: 
@@ -1471,7 +1427,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":52.0,"y":1.0},"gridSpriteSize":{"x":256.0,"y":256.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       IntroSSAnim_0: -5547974265193597688
       IntroSSAnim_1: -3937388429243211620
@@ -1521,8 +1479,6 @@ TextureImporter:
       IntroSSAnim_5: -2675361006245503500
       IntroSSAnim_50: 4730074507511581432
       IntroSSAnim_51: 6767125162054672543
-      IntroSSAnim_52: -6008143449582501892
-      IntroSSAnim_53: -8581258229781707846
       IntroSSAnim_6: -4857402722029231543
       IntroSSAnim_7: -61417269203260342
       IntroSSAnim_8: -5699626584049068461
