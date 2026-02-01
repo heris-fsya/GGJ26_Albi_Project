@@ -16,6 +16,7 @@ public class UIUpdater : MonoBehaviour
     public int bitLength { get; set; }
     public SFXManager sfxManager;
     private bool isLevelEnding = false;
+    private bool isGameFinished = false;
 
 
     [Header("Text Elements")]
@@ -31,6 +32,8 @@ public class UIUpdater : MonoBehaviour
     public Color goalLockedColor = Color.red;
     public GameObject cadenas;
     public GameObject StopPanel;
+      public GameObject gameplayCanvas;
+    public GameObject victoryCanvas;
 
     private void OnEnable()
     {
@@ -50,7 +53,7 @@ public class UIUpdater : MonoBehaviour
 
     private void Update()
     {
-        if (numberManager.IsGoalReached() && !isLevelEnding)
+        if (numberManager.IsGoalReached() && !isLevelEnding && !isGameFinished)
         {
             StartCoroutine(LevelCompleteRoutine());
         }
@@ -224,10 +227,18 @@ public void ResetUI()
 
     historyText.text = "";
     IDText.text = "";
-    
+    gameplayCanvas.SetActive(true);
+    victoryCanvas.SetActive(false);
+    isGameFinished = false;
 }
 
-    
+      public void ShowVictoryScreen()
+    {
+        sfxManager.PlayVictoryMusic();
+        isGameFinished = true;
+        gameplayCanvas.SetActive(false);
+        victoryCanvas.SetActive(true);
+    }
 
 
     public string ToBinaryString(uint number)

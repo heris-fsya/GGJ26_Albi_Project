@@ -106,6 +106,8 @@ public class LevelLoader : MonoBehaviour
         {
              UnityEngine.Debug.Log("Last level reached.");
             currentLevelIndex = levels.Count - 1;
+
+        uiUpdater.ShowVictoryScreen();
             return;
         }
 
