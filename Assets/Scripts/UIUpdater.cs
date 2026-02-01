@@ -14,6 +14,7 @@ public class UIUpdater : MonoBehaviour
     public LevelLoader levelLoader;
     public Webcam webcam;
     public int bitLength { get; set; }
+    public SFXManager sfxManager;
     private bool isLevelEnding = false;
 
 
@@ -60,7 +61,7 @@ public class UIUpdater : MonoBehaviour
         isLevelEnding = true;
         PausedGame(true);
         UnityEngine.Debug.Log("Niveau terminé !");
-
+        sfxManager.PlayGoalReached();
         // Setup
         ManualUIImageAnimator cadenasAnimator = cadenas.GetComponent<ManualUIImageAnimator>();
         ManualSpriteAnimator portraitContentAnimator = webcam.portraitContentAnimator;
@@ -94,7 +95,7 @@ public class UIUpdater : MonoBehaviour
         ManualSpriteAnimator portraitColereAnimator = webcam.portraitColereAnimator;
         webcam.portraitSuiviAnimator.gameObject.SetActive(false);
         portraitColereAnimator.gameObject.SetActive(true);
-
+        sfxManager.PlayRestart();
         // Start animation
         portraitColereAnimator.Play();
 
