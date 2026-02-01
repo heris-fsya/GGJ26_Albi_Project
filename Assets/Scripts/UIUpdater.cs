@@ -107,7 +107,7 @@ public class UIUpdater : MonoBehaviour
         webcam.portraitSuiviAnimator.gameObject.SetActive(true);
     }
 
-    void UpdateUI()
+    public void UpdateUI()
     {
         // Current number
         currentNumberText.text = ToBinaryString(numberManager.currentNumber);

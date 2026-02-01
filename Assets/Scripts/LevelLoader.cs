@@ -85,7 +85,7 @@ public class LevelLoader : MonoBehaviour
             UnityEngine.Debug.Log("LevelLoader: Invalid level index.");
             return;
         }
-
+         uiUpdater.ResetUI();
         LevelData levelData = levels[index];
 
         uiUpdater.bitLength = levelData.bitLength;
@@ -93,6 +93,8 @@ public class LevelLoader : MonoBehaviour
         buttonValueSetter.ApplyLevelData(levelData);
         difficultyEventSystem.Configure(levelData.difficulty);
         difficultyEventSystem.setAudioClip(levelData.difficulty);
+       
+        uiUpdater.UpdateUI();
     }
 
     public void NextLevel()
