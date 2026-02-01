@@ -31,6 +31,8 @@ public class UIUpdater : MonoBehaviour
     public Color goalLockedColor = Color.red;
     public GameObject cadenas;
     public GameObject StopPanel;
+      public GameObject gameplayCanvas;
+    public GameObject victoryCanvas;
 
     private void OnEnable()
     {
@@ -224,10 +226,17 @@ public void ResetUI()
 
     historyText.text = "";
     IDText.text = "";
+     gameplayCanvas.SetActive(true);
+        victoryCanvas.SetActive(false);
     
 }
 
-    
+      public void ShowVictoryScreen()
+    {
+        sfxManager.PlayVictoryMusic();
+        gameplayCanvas.SetActive(false);
+        victoryCanvas.SetActive(true);
+    }
 
 
     public string ToBinaryString(uint number)

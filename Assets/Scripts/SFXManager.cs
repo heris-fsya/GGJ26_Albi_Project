@@ -3,7 +3,9 @@ using UnityEngine;
 public class SFXManager : MonoBehaviour
 {
     [Header("Audio Source")]
-    public AudioSource audioSource;
+    public AudioSource sfxSource;
+    public AudioSource musicSource;
+    public AudioListener audioListener;
 
     [Header("UI SFX")]
     public AudioClip buttonClick;
@@ -14,10 +16,18 @@ public class SFXManager : MonoBehaviour
     public AudioClip wrongAction;
     public AudioClip restartLevel;
 
-    private void Awake()
+
+    [Header("Music")]
+    public AudioClip gameplayMusic;
+    public AudioClip victoryMusic;
+      private void Awake()
     {
-        if (audioSource == null)
-            audioSource = GetComponent<AudioSource>();
+        // Sécurité
+        if (audioListener == null)
+            audioListener = GetComponent<AudioListener>();
+
+        if (sfxSource == null || musicSource == null)
+            Debug.LogError("AudioManager : AudioSource manquant !");
     }
 
     // 🎯 Méthode générique (interne)
@@ -25,7 +35,7 @@ public class SFXManager : MonoBehaviour
     {
         if (clip == null) return;
 
-        audioSource.PlayOneShot(clip);
+        sfxSource.PlayOneShot(clip);
     }
 
     // 👇 Méthodes publiques simples
@@ -53,5 +63,20 @@ public class SFXManager : MonoBehaviour
     public void PlayRestart()
     {
         Play(restartLevel);
+    }
+        public void PlayMusic(AudioClip music)
+    {
+        if (music == null) return;
+
+        if (musicSource.clip == music) return;
+
+        musicSource.Stop();
+        musicSource.clip = music;
+        musicSource.loop = true;
+        musicSource.Play();
+    }
+        public void PlayVictoryMusic()
+    {
+        PlayMusic(victoryMusic);
     }
 }
