@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c77c10dbdfbb6c346b9fed6dfeeb2df9, type: 3}
+  m_Name: LevelM4
+  m_EditorClassIdentifier: Assembly-CSharp::LevelData
+  bitLength: 8
+  difficulty: 1
+  showGoalDecimal: 1
+  showButtonDecimal: 0
+  baseNumber: 85
+  goalNumber: 230
+  buttons:
+  - value: 102
+    bitMaskOperator: 4
+  - value: 62
+    bitMaskOperator: 0
+  - value: 12
+    bitMaskOperator: 2
+  - value: 4
+    bitMaskOperator: 6
+  - value: 127
+    bitMaskOperator: 3
