@@ -2178,7 +2178,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "<b>Game Design</b>\r\n<i>Lokreb\r\nHeris\r\nHaldarys</i>\r\n\r\n<b>Developpement</b>\r\n<i>Heris 
+  m_text: "<b>Game Design</b>\r\n<i>Lokreb\r\nHeris\r\nHaldarys</i>\r\n\r\n<b>Development</b>\r\n<i>Heris 
     \r\nHaldarys </i>"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4bd8e333a56ddec4db4791704473a534, type: 2}
@@ -3903,7 +3903,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '<b>Audio (Musique & Sound Design)</b>
+  m_text: '<b>Audio (Music & Sound Design)</b>
 
     <i>Exis </i>
 
@@ -3911,7 +3911,7 @@ MonoBehaviour:
 
 
     <b>Animations
-    & Assets Graphiques</b>
+    & Graphic assets</b>
 
     <i>Lokreb </i>'
   m_isRightToLeft: 0
