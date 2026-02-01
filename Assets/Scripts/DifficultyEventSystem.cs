@@ -7,6 +7,11 @@ public class DifficultyEventSystem : MonoBehaviour
     public float minDelay = 40f;
     public float maxDelay = 90f;
 
+    [Header("References")]
+     public AudioSource audio;
+    public AudioClip Easyaudio;
+    public AudioClip Hardaudio;
+
     public DifficultyPopup popup;
     public UnityEvent onDifficultEvent;
 
@@ -20,6 +25,19 @@ public class DifficultyEventSystem : MonoBehaviour
 
         if (isActive)
             ScheduleNextEvent();
+    }
+
+    public void setAudioClip(Difficulty difficulty)
+    {
+        if (difficulty == Difficulty.EASY || difficulty == Difficulty.MEDIUM)
+        {
+            audio.clip = Easyaudio;
+        }
+        else if (difficulty == Difficulty.HARD)
+        {
+            audio.clip = Hardaudio;
+        }
+        audio.Play();
     }
 
     void Update()

@@ -22,6 +22,7 @@ public class UIUpdater : MonoBehaviour
     public TMP_Text goalText;
     public TMP_Text historyText;
     public TMP_Text baseText;
+    public TMP_Text IDText;
 
     [Header("Deco")]
     public Color normalColor = Color.white;
@@ -55,9 +56,9 @@ public class UIUpdater : MonoBehaviour
     }
 
     private IEnumerator LevelCompleteRoutine()
-    {
+    {   
         isLevelEnding = true;
-
+        PausedGame(true);
         UnityEngine.Debug.Log("Niveau terminé !");
 
         // Setup
@@ -81,9 +82,9 @@ public class UIUpdater : MonoBehaviour
         portraitContentAnimator.ResetAnimation();
         portraitContentAnimator.gameObject.SetActive(false);
         webcam.portraitSuiviAnimator.gameObject.SetActive(true);
-
+        PausedGame(false);
         levelLoader.NextLevel();
-
+            
         isLevelEnding = false;
     }
 
@@ -106,7 +107,7 @@ public class UIUpdater : MonoBehaviour
         webcam.portraitSuiviAnimator.gameObject.SetActive(true);
     }
 
-    void UpdateUI()
+    public void UpdateUI()
     {
         // Current number
         currentNumberText.text = ToBinaryString(numberManager.currentNumber);
@@ -135,6 +136,7 @@ public class UIUpdater : MonoBehaviour
         {
             historyText.text = ToBinaryString(value)  + "\n" + historyText.text;
         }
+        IDText.text = "ID: " + levelLoader.levels[levelLoader.currentLevelIndex].name;
     }
 
     public void UpdateButtonText(NumberButton button)
@@ -213,7 +215,16 @@ public class UIUpdater : MonoBehaviour
            
         }   
 
+public void ResetUI()
+{
+    currentNumberText.text = "";
+    goalText.text = "";
+    baseText.text = "";
 
+    historyText.text = "";
+    IDText.text = "";
+    
+}
 
     
 
