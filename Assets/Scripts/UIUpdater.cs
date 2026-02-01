@@ -233,6 +233,7 @@ public void ResetUI()
 
       public void ShowVictoryScreen()
     {
+        sfxManager.PlayVictoryMusic();
         gameplayCanvas.SetActive(false);
         victoryCanvas.SetActive(true);
     }
