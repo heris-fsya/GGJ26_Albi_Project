@@ -62,14 +62,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.60530156, g: 1, b: 0.5518868, a: 0.62352943}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -4699510116321250514, guid: d38982d00cd21de45a32404f3558d3d7, type: 3}
+  m_Sprite: {fileID: -2208792462802038816, guid: 49c9c453e99d1184aa833c43b21a8e46, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -163,24 +163,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ManualUIImageAnimator
   frames:
-  - {fileID: -4699510116321250514, guid: d38982d00cd21de45a32404f3558d3d7, type: 3}
-  - {fileID: -4422451064301510976, guid: d38982d00cd21de45a32404f3558d3d7, type: 3}
-  - {fileID: 1309732498815641068, guid: d38982d00cd21de45a32404f3558d3d7, type: 3}
-  - {fileID: -8417910431152615185, guid: d38982d00cd21de45a32404f3558d3d7, type: 3}
-  - {fileID: -3738077896099454328, guid: d38982d00cd21de45a32404f3558d3d7, type: 3}
-  - {fileID: 2877904794214362663, guid: d38982d00cd21de45a32404f3558d3d7, type: 3}
-  - {fileID: -2276658871457607875, guid: d38982d00cd21de45a32404f3558d3d7, type: 3}
-  - {fileID: -7961620995778218222, guid: d38982d00cd21de45a32404f3558d3d7, type: 3}
-  - {fileID: -6989193882538772969, guid: d38982d00cd21de45a32404f3558d3d7, type: 3}
-  - {fileID: -4588704862658955259, guid: d38982d00cd21de45a32404f3558d3d7, type: 3}
-  - {fileID: 1080252865891760953, guid: d38982d00cd21de45a32404f3558d3d7, type: 3}
-  - {fileID: 4053473926217196956, guid: d38982d00cd21de45a32404f3558d3d7, type: 3}
-  - {fileID: 1685784908282622747, guid: d38982d00cd21de45a32404f3558d3d7, type: 3}
-  - {fileID: 8718347134036403309, guid: d38982d00cd21de45a32404f3558d3d7, type: 3}
-  - {fileID: -1680885812839390235, guid: d38982d00cd21de45a32404f3558d3d7, type: 3}
-  - {fileID: 8016350741085917349, guid: d38982d00cd21de45a32404f3558d3d7, type: 3}
-  - {fileID: -3842024120576816583, guid: d38982d00cd21de45a32404f3558d3d7, type: 3}
-  - {fileID: -5921655065308095461, guid: d38982d00cd21de45a32404f3558d3d7, type: 3}
+  - {fileID: -2208792462802038816, guid: 49c9c453e99d1184aa833c43b21a8e46, type: 3}
+  - {fileID: -5513552636295381511, guid: 49c9c453e99d1184aa833c43b21a8e46, type: 3}
+  - {fileID: 7482185591791078204, guid: 49c9c453e99d1184aa833c43b21a8e46, type: 3}
+  - {fileID: -6052351894185651716, guid: 49c9c453e99d1184aa833c43b21a8e46, type: 3}
+  - {fileID: 7026308031557579767, guid: 49c9c453e99d1184aa833c43b21a8e46, type: 3}
+  - {fileID: 2600044319926359945, guid: 49c9c453e99d1184aa833c43b21a8e46, type: 3}
+  - {fileID: -676074638301013055, guid: 49c9c453e99d1184aa833c43b21a8e46, type: 3}
+  - {fileID: -1360343239560168870, guid: 49c9c453e99d1184aa833c43b21a8e46, type: 3}
+  - {fileID: 6947117622337969786, guid: 49c9c453e99d1184aa833c43b21a8e46, type: 3}
+  - {fileID: 6029048677019151166, guid: 49c9c453e99d1184aa833c43b21a8e46, type: 3}
+  - {fileID: 3516464693994328144, guid: 49c9c453e99d1184aa833c43b21a8e46, type: 3}
+  - {fileID: -303370356988005725, guid: 49c9c453e99d1184aa833c43b21a8e46, type: 3}
+  - {fileID: -3531088299788256369, guid: 49c9c453e99d1184aa833c43b21a8e46, type: 3}
+  - {fileID: -8748365005970479487, guid: 49c9c453e99d1184aa833c43b21a8e46, type: 3}
+  - {fileID: -6649353758041289127, guid: 49c9c453e99d1184aa833c43b21a8e46, type: 3}
+  - {fileID: 4309823303501371429, guid: 49c9c453e99d1184aa833c43b21a8e46, type: 3}
+  - {fileID: -629422316836396587, guid: 49c9c453e99d1184aa833c43b21a8e46, type: 3}
+  - {fileID: -2927358549149778983, guid: 49c9c453e99d1184aa833c43b21a8e46, type: 3}
   frameRate: 24
   loop: 1
   playOnStart: 1
@@ -258,8 +258,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:

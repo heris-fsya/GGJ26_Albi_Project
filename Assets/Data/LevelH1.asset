@@ -12,18 +12,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c77c10dbdfbb6c346b9fed6dfeeb2df9, type: 3}
   m_Name: LevelH1
   m_EditorClassIdentifier: Assembly-CSharp::LevelData
-  bitLength: 4
-  difficulty: 0
-  showGoalDecimal: 0
-  showButtonDecimal: 0
-  baseNumber: 4
-  goalNumber: 11
+  bitLength: 8
+  difficulty: 2
+  showGoalDecimal: 1
+  showButtonDecimal: 1
+  baseNumber: 240
+  goalNumber: 15
   buttons:
-  - value: 5
-    bitMaskOperator: 0
+  - value: 0
+    bitMaskOperator: 5
   - value: 15
+    bitMaskOperator: 0
+  - value: 3
     bitMaskOperator: 2
-  - value: 2
-    bitMaskOperator: 3
-  - value: 6
+  - value: 255
+    bitMaskOperator: 4
+  - value: 240
     bitMaskOperator: 1
+  - value: 63
+    bitMaskOperator: 0
+  - value: 8
+    bitMaskOperator: 2
+  - value: 5
+    bitMaskOperator: 4
