@@ -10,9 +10,11 @@ public class EventPopupController : MonoBehaviour
     public TMP_Text countdownText;
     public Button closeButton;
 
+
     [Header("Settings")]
     public float countdownDuration = 5f;
 
+    public SFXManager sfxManager;
     private Coroutine countdownCoroutine;
     private bool isActive = false;
 
@@ -30,7 +32,7 @@ public class EventPopupController : MonoBehaviour
     public void ShowPopup()
     {
         if (isActive) return;
-
+        sfxManager.PlayPopup();
         isActive = true;
         popupRoot.SetActive(true);
 
@@ -47,7 +49,9 @@ public class EventPopupController : MonoBehaviour
             remaining -= Time.deltaTime;
             yield return null;
         }
-
+        sfxManager.PlayRestart();
+        yield return new WaitForEndOfFrame(); // Wait for a frame to ensure audio plays properly
+        sfxManager.PlayWrongAction();
         // ⛔ Temps écoulé → restart
         ForceRestart();
     }

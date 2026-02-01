@@ -18,6 +18,7 @@ public class LevelLoader : MonoBehaviour
     public UIUpdater uiUpdater;
     public DifficultyEventSystem difficultyEventSystem;  
     public Difficulty difficultychoice = Difficulty.NONE; 
+    
 
     public int currentLevelIndex = 0;
 
