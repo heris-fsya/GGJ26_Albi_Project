@@ -35,7 +35,7 @@ public class EventPopupController : MonoBehaviour
         sfxManager.PlayPopup();
         isActive = true;
         popupRoot.SetActive(true);
-
+        sfxManager.PlayWrongAction();
         countdownCoroutine = StartCoroutine(CountdownRoutine());
     }
 
@@ -50,8 +50,8 @@ public class EventPopupController : MonoBehaviour
             yield return null;
         }
         sfxManager.PlayRestart();
-        yield return new WaitForEndOfFrame(); // Wait for a frame to ensure audio plays properly
-        sfxManager.PlayWrongAction();
+      //  yield return new WaitForEndOfFrame(); // Wait for a frame to ensure audio plays properly
+        
         // ⛔ Temps écoulé → restart
         ForceRestart();
     }
@@ -65,7 +65,7 @@ public class EventPopupController : MonoBehaviour
 
         if (countdownCoroutine != null)
             StopCoroutine(countdownCoroutine);
-
+        sfxManager.StopSFX();
         popupRoot.SetActive(false);
     }
 
@@ -75,7 +75,7 @@ public class EventPopupController : MonoBehaviour
         popupRoot.SetActive(false);
 
         Debug.Log("Event non désactivé → Restart Level");
-
+        sfxManager.StopSFX();
         levelLoader.RestartLevel();
     }
 }

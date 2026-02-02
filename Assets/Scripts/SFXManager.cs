@@ -37,6 +37,10 @@ public class SFXManager : MonoBehaviour
 
         sfxSource.PlayOneShot(clip);
     }
+    public void StopSFX()
+    {
+        sfxSource.Stop();
+    }
 
     // 👇 Méthodes publiques simples
 
