@@ -25,6 +25,7 @@ public class UIUpdater : MonoBehaviour
     public TMP_Text historyText;
     public TMP_Text baseText;
     public TMP_Text IDText;
+    public DifficultyText difficultyText;
 
     [Header("Deco")]
     public Color normalColor = Color.white;
@@ -141,6 +142,7 @@ public class UIUpdater : MonoBehaviour
             historyText.text = ToBinaryString(value)  + "\n" + historyText.text;
         }
         IDText.text = "ID: " + levelLoader.levels[levelLoader.currentLevelIndex].name;
+        difficultyText.SetColor(levelLoader.levels[levelLoader.currentLevelIndex].difficulty);
     }
 
     public void UpdateButtonText(NumberButton button)

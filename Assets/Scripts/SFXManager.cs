@@ -1,15 +1,18 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class SFXManager : MonoBehaviour
 {
     [Header("Audio Source")]
     public AudioSource sfxSource;
+    public AudioSource musicSourceMenu;
     public AudioSource musicSource;
     public AudioListener audioListener;
 
     [Header("UI SFX")]
     public AudioClip buttonClick;
     public AudioClip popupAppear;
+    public Slider volumeSlider;
 
     [Header("Game SFX")]
     public AudioClip goalReached;
@@ -68,7 +71,8 @@ public class SFXManager : MonoBehaviour
     {
         Play(restartLevel);
     }
-        public void PlayMusic(AudioClip music)
+
+    public void PlayMusic(AudioClip music)
     {
         if (music == null) return;
 
@@ -79,8 +83,16 @@ public class SFXManager : MonoBehaviour
         musicSource.loop = true;
         musicSource.Play();
     }
-        public void PlayVictoryMusic()
+
+    public void PlayVictoryMusic()
     {
         PlayMusic(victoryMusic);
+    }
+
+    public void ChangeVolume()
+    {
+        musicSourceMenu.volume = volumeSlider.value;
+        musicSource.volume = volumeSlider.value;
+        sfxSource.volume = volumeSlider.value;
     }
 }
