@@ -29,6 +29,8 @@ public class DifficultyEventSystem : MonoBehaviour
 
     public void setAudioClip(Difficulty difficulty)
     {
+        AudioClip currentAudio = audio.clip;
+
         if (difficulty == Difficulty.EASY || difficulty == Difficulty.MEDIUM)
         {
             audio.clip = Easyaudio;
@@ -37,7 +39,11 @@ public class DifficultyEventSystem : MonoBehaviour
         {
             audio.clip = Hardaudio;
         }
-        audio.Play();
+
+        if(audio.clip != currentAudio)
+        {
+            audio.Play();
+        }
     }
 
     void Update()

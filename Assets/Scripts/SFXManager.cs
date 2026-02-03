@@ -19,7 +19,6 @@ public class SFXManager : MonoBehaviour
     public AudioClip wrongAction;
     public AudioClip restartLevel;
 
-
     [Header("Music")]
     public AudioClip gameplayMusic;
     public AudioClip victoryMusic;
