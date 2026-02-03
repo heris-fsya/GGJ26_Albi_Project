@@ -19,6 +19,9 @@ public class LevelData : ScriptableObject
 
     [Header("Buttons Values")]
     public List<BitMaskButton> buttons;
+
+    [Header("Helpers")]
+    public string solution;
 }
 
 [System.Serializable]

@@ -27,3 +27,4 @@ MonoBehaviour:
     bitMaskOperator: 3
   - value: 6
     bitMaskOperator: 1
+  solution: 4

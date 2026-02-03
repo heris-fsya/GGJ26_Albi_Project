@@ -1,0 +1,2119 @@
+fileFormatVersion: 2
+guid: a6504a0788c51d240858258edf56c8e3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4027612365182660446
+    second: MyUglyHandwriting-Regular SDF Atlas_0
+  - first:
+      213: 6915612789907518454
+    second: MyUglyHandwriting-Regular SDF Atlas_1
+  - first:
+      213: 1466503779301318623
+    second: MyUglyHandwriting-Regular SDF Atlas_2
+  - first:
+      213: 7693924534758214185
+    second: MyUglyHandwriting-Regular SDF Atlas_3
+  - first:
+      213: -5094915970225582199
+    second: MyUglyHandwriting-Regular SDF Atlas_4
+  - first:
+      213: 937090635277612510
+    second: MyUglyHandwriting-Regular SDF Atlas_5
+  - first:
+      213: -8204619219059390833
+    second: MyUglyHandwriting-Regular SDF Atlas_6
+  - first:
+      213: 3051207595017388344
+    second: MyUglyHandwriting-Regular SDF Atlas_7
+  - first:
+      213: -9115235097883895966
+    second: MyUglyHandwriting-Regular SDF Atlas_8
+  - first:
+      213: -2969556833554175499
+    second: MyUglyHandwriting-Regular SDF Atlas_9
+  - first:
+      213: -8775339423094395630
+    second: MyUglyHandwriting-Regular SDF Atlas_10
+  - first:
+      213: -1160584082163658410
+    second: MyUglyHandwriting-Regular SDF Atlas_11
+  - first:
+      213: 7239637105735369375
+    second: MyUglyHandwriting-Regular SDF Atlas_12
+  - first:
+      213: 6734207727867342647
+    second: MyUglyHandwriting-Regular SDF Atlas_13
+  - first:
+      213: -1541827584261736449
+    second: MyUglyHandwriting-Regular SDF Atlas_14
+  - first:
+      213: 3538596817188432882
+    second: MyUglyHandwriting-Regular SDF Atlas_15
+  - first:
+      213: -2358969142923344074
+    second: MyUglyHandwriting-Regular SDF Atlas_16
+  - first:
+      213: -6122682470593274527
+    second: MyUglyHandwriting-Regular SDF Atlas_17
+  - first:
+      213: -8520370289607009181
+    second: MyUglyHandwriting-Regular SDF Atlas_18
+  - first:
+      213: -21409663262040197
+    second: MyUglyHandwriting-Regular SDF Atlas_19
+  - first:
+      213: -3807631346957732361
+    second: MyUglyHandwriting-Regular SDF Atlas_20
+  - first:
+      213: -9182954414273898316
+    second: MyUglyHandwriting-Regular SDF Atlas_21
+  - first:
+      213: 6301138478556571076
+    second: MyUglyHandwriting-Regular SDF Atlas_22
+  - first:
+      213: 564376397756225445
+    second: MyUglyHandwriting-Regular SDF Atlas_23
+  - first:
+      213: -4131141501201111807
+    second: MyUglyHandwriting-Regular SDF Atlas_24
+  - first:
+      213: -3897997322272610477
+    second: MyUglyHandwriting-Regular SDF Atlas_25
+  - first:
+      213: -2416423390881204231
+    second: MyUglyHandwriting-Regular SDF Atlas_26
+  - first:
+      213: -5769696144571588159
+    second: MyUglyHandwriting-Regular SDF Atlas_27
+  - first:
+      213: -8407780005401713653
+    second: MyUglyHandwriting-Regular SDF Atlas_28
+  - first:
+      213: -882116230515653130
+    second: MyUglyHandwriting-Regular SDF Atlas_29
+  - first:
+      213: 3558325190940372053
+    second: MyUglyHandwriting-Regular SDF Atlas_30
+  - first:
+      213: -3224400694139970995
+    second: MyUglyHandwriting-Regular SDF Atlas_31
+  - first:
+      213: -7443948084242046967
+    second: MyUglyHandwriting-Regular SDF Atlas_32
+  - first:
+      213: -6023614916038798043
+    second: MyUglyHandwriting-Regular SDF Atlas_33
+  - first:
+      213: -516169561213042038
+    second: MyUglyHandwriting-Regular SDF Atlas_34
+  - first:
+      213: -1090150575864908795
+    second: MyUglyHandwriting-Regular SDF Atlas_35
+  - first:
+      213: -1733753900455539577
+    second: MyUglyHandwriting-Regular SDF Atlas_36
+  - first:
+      213: -4251777195006817809
+    second: MyUglyHandwriting-Regular SDF Atlas_37
+  - first:
+      213: -3333605500498780580
+    second: MyUglyHandwriting-Regular SDF Atlas_38
+  - first:
+      213: -8020491236865924099
+    second: MyUglyHandwriting-Regular SDF Atlas_39
+  - first:
+      213: -4507071343757245321
+    second: MyUglyHandwriting-Regular SDF Atlas_40
+  - first:
+      213: -2157445650178989468
+    second: MyUglyHandwriting-Regular SDF Atlas_41
+  - first:
+      213: -8284111992807815325
+    second: MyUglyHandwriting-Regular SDF Atlas_42
+  - first:
+      213: 6628264093254719675
+    second: MyUglyHandwriting-Regular SDF Atlas_43
+  - first:
+      213: 8903593910592539721
+    second: MyUglyHandwriting-Regular SDF Atlas_44
+  - first:
+      213: -8513861578425244787
+    second: MyUglyHandwriting-Regular SDF Atlas_45
+  - first:
+      213: -5326701567544577438
+    second: MyUglyHandwriting-Regular SDF Atlas_46
+  - first:
+      213: -522968094059412018
+    second: MyUglyHandwriting-Regular SDF Atlas_47
+  - first:
+      213: 1131863326516359436
+    second: MyUglyHandwriting-Regular SDF Atlas_48
+  - first:
+      213: 7249727427884537209
+    second: MyUglyHandwriting-Regular SDF Atlas_49
+  - first:
+      213: 7861571749256259646
+    second: MyUglyHandwriting-Regular SDF Atlas_50
+  - first:
+      213: -809827123582685816
+    second: MyUglyHandwriting-Regular SDF Atlas_51
+  - first:
+      213: 4195716271414602429
+    second: MyUglyHandwriting-Regular SDF Atlas_52
+  - first:
+      213: -7191693435048690739
+    second: MyUglyHandwriting-Regular SDF Atlas_53
+  - first:
+      213: 7453807114685172658
+    second: MyUglyHandwriting-Regular SDF Atlas_54
+  - first:
+      213: 2099307227698564191
+    second: MyUglyHandwriting-Regular SDF Atlas_55
+  - first:
+      213: -7047107785345081203
+    second: MyUglyHandwriting-Regular SDF Atlas_56
+  - first:
+      213: 6036120822249175981
+    second: MyUglyHandwriting-Regular SDF Atlas_57
+  - first:
+      213: -4814746447037144034
+    second: MyUglyHandwriting-Regular SDF Atlas_58
+  - first:
+      213: -6189776475434286783
+    second: MyUglyHandwriting-Regular SDF Atlas_59
+  - first:
+      213: -2037671015542147169
+    second: MyUglyHandwriting-Regular SDF Atlas_60
+  - first:
+      213: 3389769561975741262
+    second: MyUglyHandwriting-Regular SDF Atlas_61
+  - first:
+      213: 6430568551107950086
+    second: MyUglyHandwriting-Regular SDF Atlas_62
+  - first:
+      213: -5107679418235989398
+    second: MyUglyHandwriting-Regular SDF Atlas_63
+  - first:
+      213: 7700993901177272227
+    second: MyUglyHandwriting-Regular SDF Atlas_64
+  - first:
+      213: 8684304018365624707
+    second: MyUglyHandwriting-Regular SDF Atlas_65
+  - first:
+      213: 6331230514291244993
+    second: MyUglyHandwriting-Regular SDF Atlas_66
+  - first:
+      213: -1007140789433411078
+    second: MyUglyHandwriting-Regular SDF Atlas_67
+  - first:
+      213: -9098204716991174291
+    second: MyUglyHandwriting-Regular SDF Atlas_68
+  - first:
+      213: -1408914959158846400
+    second: MyUglyHandwriting-Regular SDF Atlas_69
+  - first:
+      213: 3084868442496174834
+    second: MyUglyHandwriting-Regular SDF Atlas_70
+  - first:
+      213: -4940317679658708309
+    second: MyUglyHandwriting-Regular SDF Atlas_71
+  - first:
+      213: -8314529174518109850
+    second: MyUglyHandwriting-Regular SDF Atlas_72
+  - first:
+      213: 5609392903504878905
+    second: MyUglyHandwriting-Regular SDF Atlas_73
+  - first:
+      213: 6225620115877524395
+    second: MyUglyHandwriting-Regular SDF Atlas_74
+  - first:
+      213: -8792597932144277881
+    second: MyUglyHandwriting-Regular SDF Atlas_75
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MyUglyHandwriting-Regular SDF Atlas_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 426
+        width: 53
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a01150a4eb0b18c0800000000000000
+      internalID: -4027612365182660446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MyUglyHandwriting-Regular SDF Atlas_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 344
+        width: 61
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f3f592213139ff50800000000000000
+      internalID: 6915612789907518454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MyUglyHandwriting-Regular SDF Atlas_2
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 426
+        width: 53
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdfd50bda611a5410800000000000000
+      internalID: 1466503779301318623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MyUglyHandwriting-Regular SDF Atlas_3
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 423
+        width: 66
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92a0de6a99f46ca60800000000000000
+      internalID: 7693924534758214185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MyUglyHandwriting-Regular SDF Atlas_4
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 423
+        width: 40
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98f4d3a4be83b49b0800000000000000
+      internalID: -5094915970225582199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MyUglyHandwriting-Regular SDF Atlas_5
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 420
+        width: 69
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed53116c7f6310d00800000000000000
+      internalID: 937090635277612510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MyUglyHandwriting-Regular SDF Atlas_6
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 411
+        width: 42
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f864f9a4a46532e80800000000000000
+      internalID: -8204619219059390833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MyUglyHandwriting-Regular SDF Atlas_7
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 416
+        width: 35
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8314cf44421185a20800000000000000
+      internalID: 3051207595017388344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MyUglyHandwriting-Regular SDF Atlas_8
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 416
+        width: 39
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 267157a19fd208180800000000000000
+      internalID: -9115235097883895966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MyUglyHandwriting-Regular SDF Atlas_9
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 390
+        width: 37
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f96ba31bc30ac6d0800000000000000
+      internalID: -2969556833554175499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MyUglyHandwriting-Regular SDF Atlas_10
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 416
+        width: 37
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21d2af6d94bb73680800000000000000
+      internalID: -8775339423094395630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MyUglyHandwriting-Regular SDF Atlas_11
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 403
+        width: 27
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65199a22de6c4efe0800000000000000
+      internalID: -1160584082163658410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MyUglyHandwriting-Regular SDF Atlas_12
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 343
+        width: 51
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f920816279b587460800000000000000
+      internalID: 7239637105735369375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MyUglyHandwriting-Regular SDF Atlas_13
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 333
+        width: 58
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73f2937cf36b47d50800000000000000
+      internalID: 6734207727867342647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MyUglyHandwriting-Regular SDF Atlas_14
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 389
+        width: 27
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff73e272bf35a9ae0800000000000000
+      internalID: -1541827584261736449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MyUglyHandwriting-Regular SDF Atlas_15
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 313
+        width: 45
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fb28d39e0f9b1130800000000000000
+      internalID: 3538596817188432882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MyUglyHandwriting-Regular SDF Atlas_16
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 389
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63742f71012434fd0800000000000000
+      internalID: -2358969142923344074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MyUglyHandwriting-Regular SDF Atlas_17
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 313
+        width: 53
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16dd6cb7bbcd70ba0800000000000000
+      internalID: -6122682470593274527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MyUglyHandwriting-Regular SDF Atlas_18
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 388
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36c9e2d4d5091c980800000000000000
+      internalID: -8520370289607009181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MyUglyHandwriting-Regular SDF Atlas_19
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 388
+        width: 47
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7f51825600f3bff0800000000000000
+      internalID: -21409663262040197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MyUglyHandwriting-Regular SDF Atlas_20
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 379
+        width: 42
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f531f0b673982bc0800000000000000
+      internalID: -3807631346957732361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MyUglyHandwriting-Regular SDF Atlas_21
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 335
+        width: 42
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b859941d979f8080800000000000000
+      internalID: -9182954414273898316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MyUglyHandwriting-Regular SDF Atlas_22
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 342
+        width: 41
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c5e8e6bf04227750800000000000000
+      internalID: 6301138478556571076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MyUglyHandwriting-Regular SDF Atlas_23
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 366
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a7dfd3f75115d700800000000000000
+      internalID: 564376397756225445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MyUglyHandwriting-Regular SDF Atlas_24
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 366
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 105a80041bc3ba6c0800000000000000
+      internalID: -4131141501201111807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MyUglyHandwriting-Regular SDF Atlas_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 261
+        width: 50
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 357648e761887e9c0800000000000000
+      internalID: -3897997322272610477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MyUglyHandwriting-Regular SDF Atlas_26
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 261
+        width: 58
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f7b49f8ab3277ed0800000000000000
+      internalID: -2416423390881204231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MyUglyHandwriting-Regular SDF Atlas_27
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 254
+        width: 58
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c1aed8fcebedefa0800000000000000
+      internalID: -5769696144571588159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MyUglyHandwriting-Regular SDF Atlas_28
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 304
+        width: 54
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b042664a1a0915b80800000000000000
+      internalID: -8407780005401713653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MyUglyHandwriting-Regular SDF Atlas_29
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 289
+        width: 44
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f5028546f712c3f0800000000000000
+      internalID: -882116230515653130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MyUglyHandwriting-Regular SDF Atlas_30
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 326
+        width: 43
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55c235988e5b16130800000000000000
+      internalID: 3558325190940372053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MyUglyHandwriting-Regular SDF Atlas_31
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 291
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4a934cf6a0a043d0800000000000000
+      internalID: -3224400694139970995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MyUglyHandwriting-Regular SDF Atlas_32
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 273
+        width: 45
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 900ad4838a8c1b890800000000000000
+      internalID: -7443948084242046967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MyUglyHandwriting-Regular SDF Atlas_33
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 309
+        width: 41
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52553c9f522d76ca0800000000000000
+      internalID: -6023614916038798043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MyUglyHandwriting-Regular SDF Atlas_34
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 176
+        width: 54
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a820704d48236d8f0800000000000000
+      internalID: -516169561213042038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MyUglyHandwriting-Regular SDF Atlas_35
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 237
+        width: 54
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50472edb3d10fd0f0800000000000000
+      internalID: -1090150575864908795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MyUglyHandwriting-Regular SDF Atlas_36
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 229
+        width: 53
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78c466b630870f7e0800000000000000
+      internalID: -1733753900455539577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MyUglyHandwriting-Regular SDF Atlas_37
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 219
+        width: 39
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe903830b27aef4c0800000000000000
+      internalID: -4251777195006817809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MyUglyHandwriting-Regular SDF Atlas_38
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 219
+        width: 54
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5e5b71a577acb1d0800000000000000
+      internalID: -3333605500498780580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MyUglyHandwriting-Regular SDF Atlas_39
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 235
+        width: 46
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df32976e6bd71b090800000000000000
+      internalID: -8020491236865924099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MyUglyHandwriting-Regular SDF Atlas_40
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 222
+        width: 47
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 774c10a0e7aa371c0800000000000000
+      internalID: -4507071343757245321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MyUglyHandwriting-Regular SDF Atlas_41
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 258
+        width: 46
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 462aede9c963f02e0800000000000000
+      internalID: -2157445650178989468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MyUglyHandwriting-Regular SDF Atlas_42
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 203
+        width: 47
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 367032d980ce80d80800000000000000
+      internalID: -8284111992807815325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MyUglyHandwriting-Regular SDF Atlas_43
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 174
+        width: 49
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb89ce323135cfb50800000000000000
+      internalID: 6628264093254719675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MyUglyHandwriting-Regular SDF Atlas_44
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 174
+        width: 45
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94c03390d7bef8b70800000000000000
+      internalID: 8903593910592539721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MyUglyHandwriting-Regular SDF Atlas_45
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 161
+        width: 66
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d83ed17b000b8d980800000000000000
+      internalID: -8513861578425244787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MyUglyHandwriting-Regular SDF Atlas_46
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 153
+        width: 52
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2623df97521c316b0800000000000000
+      internalID: -5326701567544577438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MyUglyHandwriting-Regular SDF Atlas_47
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 147
+        width: 51
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec5c9bc0a4b0eb8f0800000000000000
+      internalID: -522968094059412018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MyUglyHandwriting-Regular SDF Atlas_48
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 143
+        width: 53
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c01bc47d2bf25bf00800000000000000
+      internalID: 1131863326516359436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MyUglyHandwriting-Regular SDF Atlas_49
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 189
+        width: 44
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 975d6795fa43c9460800000000000000
+      internalID: 7249727427884537209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MyUglyHandwriting-Regular SDF Atlas_50
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 141
+        width: 44
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e386aa28ad9e91d60800000000000000
+      internalID: 7861571749256259646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MyUglyHandwriting-Regular SDF Atlas_51
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 175
+        width: 49
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88da061958ae2c4f0800000000000000
+      internalID: -809827123582685816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MyUglyHandwriting-Regular SDF Atlas_52
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 136
+        width: 51
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dba6eff08bd2a3a30800000000000000
+      internalID: 4195716271414602429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MyUglyHandwriting-Regular SDF Atlas_53
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 90
+        width: 51
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcbf96e8ce8f13c90800000000000000
+      internalID: -7191693435048690739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MyUglyHandwriting-Regular SDF Atlas_54
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 90
+        width: 57
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bbc61f241e317760800000000000000
+      internalID: 7453807114685172658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MyUglyHandwriting-Regular SDF Atlas_55
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 83
+        width: 36
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5c026d0dcc322d10800000000000000
+      internalID: 2099307227698564191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MyUglyHandwriting-Regular SDF Atlas_56
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 83
+        width: 39
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d80ed907ec4a33e90800000000000000
+      internalID: -7047107785345081203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MyUglyHandwriting-Regular SDF Atlas_57
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 77
+        width: 58
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dab308738eb94c350800000000000000
+      internalID: 6036120822249175981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MyUglyHandwriting-Regular SDF Atlas_58
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 74
+        width: 47
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e14e6c4bd959e2db0800000000000000
+      internalID: -4814746447037144034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MyUglyHandwriting-Regular SDF Atlas_59
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 72
+        width: 50
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1418ba6271f791aa0800000000000000
+      internalID: -6189776475434286783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MyUglyHandwriting-Regular SDF Atlas_60
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 71
+        width: 49
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f973085e10db8b3e0800000000000000
+      internalID: -2037671015542147169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MyUglyHandwriting-Regular SDF Atlas_61
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 69
+        width: 28
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4bdef3f471ea0f20800000000000000
+      internalID: 3389769561975741262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MyUglyHandwriting-Regular SDF Atlas_62
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 113
+        width: 56
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6067690d608fd3950800000000000000
+      internalID: 6430568551107950086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MyUglyHandwriting-Regular SDF Atlas_63
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 53
+        width: 57
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a62587971a0ed19b0800000000000000
+      internalID: -5107679418235989398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MyUglyHandwriting-Regular SDF Atlas_64
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 67
+        width: 47
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a7fe19c62d6fda60800000000000000
+      internalID: 7700993901177272227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MyUglyHandwriting-Regular SDF Atlas_65
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 70
+        width: 99
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3813e284e78d48870800000000000000
+      internalID: 8684304018365624707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MyUglyHandwriting-Regular SDF Atlas_66
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 0
+        width: 58
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cf7173cb9c0dd750800000000000000
+      internalID: 6331230514291244993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MyUglyHandwriting-Regular SDF Atlas_67
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 0
+        width: 28
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af9d30fb9cae502f0800000000000000
+      internalID: -1007140789433411078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MyUglyHandwriting-Regular SDF Atlas_68
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 0
+        width: 55
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6925f5a30facb180800000000000000
+      internalID: -9098204716991174291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MyUglyHandwriting-Regular SDF Atlas_69
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 0
+        width: 27
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04c5a943f47827ce0800000000000000
+      internalID: -1408914959158846400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MyUglyHandwriting-Regular SDF Atlas_70
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 0
+        width: 52
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fa0ccd0187afca20800000000000000
+      internalID: 3084868442496174834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MyUglyHandwriting-Regular SDF Atlas_71
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 0
+        width: 47
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba25c5ace37707bb0800000000000000
+      internalID: -4940317679658708309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MyUglyHandwriting-Regular SDF Atlas_72
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 0
+        width: 50
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 669e93e94cbdc9c80800000000000000
+      internalID: -8314529174518109850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MyUglyHandwriting-Regular SDF Atlas_73
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 0
+        width: 40
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93d510b302198dd40800000000000000
+      internalID: 5609392903504878905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MyUglyHandwriting-Regular SDF Atlas_74
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 0
+        width: 61
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba3f769b288d56650800000000000000
+      internalID: 6225620115877524395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MyUglyHandwriting-Regular SDF Atlas_75
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 0
+        width: 44
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 786c4b114ca6af580800000000000000
+      internalID: -8792597932144277881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      MyUglyHandwriting-Regular SDF Atlas_0: -4027612365182660446
+      MyUglyHandwriting-Regular SDF Atlas_1: 6915612789907518454
+      MyUglyHandwriting-Regular SDF Atlas_10: -8775339423094395630
+      MyUglyHandwriting-Regular SDF Atlas_11: -1160584082163658410
+      MyUglyHandwriting-Regular SDF Atlas_12: 7239637105735369375
+      MyUglyHandwriting-Regular SDF Atlas_13: 6734207727867342647
+      MyUglyHandwriting-Regular SDF Atlas_14: -1541827584261736449
+      MyUglyHandwriting-Regular SDF Atlas_15: 3538596817188432882
+      MyUglyHandwriting-Regular SDF Atlas_16: -2358969142923344074
+      MyUglyHandwriting-Regular SDF Atlas_17: -6122682470593274527
+      MyUglyHandwriting-Regular SDF Atlas_18: -8520370289607009181
+      MyUglyHandwriting-Regular SDF Atlas_19: -21409663262040197
+      MyUglyHandwriting-Regular SDF Atlas_2: 1466503779301318623
+      MyUglyHandwriting-Regular SDF Atlas_20: -3807631346957732361
+      MyUglyHandwriting-Regular SDF Atlas_21: -9182954414273898316
+      MyUglyHandwriting-Regular SDF Atlas_22: 6301138478556571076
+      MyUglyHandwriting-Regular SDF Atlas_23: 564376397756225445
+      MyUglyHandwriting-Regular SDF Atlas_24: -4131141501201111807
+      MyUglyHandwriting-Regular SDF Atlas_25: -3897997322272610477
+      MyUglyHandwriting-Regular SDF Atlas_26: -2416423390881204231
+      MyUglyHandwriting-Regular SDF Atlas_27: -5769696144571588159
+      MyUglyHandwriting-Regular SDF Atlas_28: -8407780005401713653
+      MyUglyHandwriting-Regular SDF Atlas_29: -882116230515653130
+      MyUglyHandwriting-Regular SDF Atlas_3: 7693924534758214185
+      MyUglyHandwriting-Regular SDF Atlas_30: 3558325190940372053
+      MyUglyHandwriting-Regular SDF Atlas_31: -3224400694139970995
+      MyUglyHandwriting-Regular SDF Atlas_32: -7443948084242046967
+      MyUglyHandwriting-Regular SDF Atlas_33: -6023614916038798043
+      MyUglyHandwriting-Regular SDF Atlas_34: -516169561213042038
+      MyUglyHandwriting-Regular SDF Atlas_35: -1090150575864908795
+      MyUglyHandwriting-Regular SDF Atlas_36: -1733753900455539577
+      MyUglyHandwriting-Regular SDF Atlas_37: -4251777195006817809
+      MyUglyHandwriting-Regular SDF Atlas_38: -3333605500498780580
+      MyUglyHandwriting-Regular SDF Atlas_39: -8020491236865924099
+      MyUglyHandwriting-Regular SDF Atlas_4: -5094915970225582199
+      MyUglyHandwriting-Regular SDF Atlas_40: -4507071343757245321
+      MyUglyHandwriting-Regular SDF Atlas_41: -2157445650178989468
+      MyUglyHandwriting-Regular SDF Atlas_42: -8284111992807815325
+      MyUglyHandwriting-Regular SDF Atlas_43: 6628264093254719675
+      MyUglyHandwriting-Regular SDF Atlas_44: 8903593910592539721
+      MyUglyHandwriting-Regular SDF Atlas_45: -8513861578425244787
+      MyUglyHandwriting-Regular SDF Atlas_46: -5326701567544577438
+      MyUglyHandwriting-Regular SDF Atlas_47: -522968094059412018
+      MyUglyHandwriting-Regular SDF Atlas_48: 1131863326516359436
+      MyUglyHandwriting-Regular SDF Atlas_49: 7249727427884537209
+      MyUglyHandwriting-Regular SDF Atlas_5: 937090635277612510
+      MyUglyHandwriting-Regular SDF Atlas_50: 7861571749256259646
+      MyUglyHandwriting-Regular SDF Atlas_51: -809827123582685816
+      MyUglyHandwriting-Regular SDF Atlas_52: 4195716271414602429
+      MyUglyHandwriting-Regular SDF Atlas_53: -7191693435048690739
+      MyUglyHandwriting-Regular SDF Atlas_54: 7453807114685172658
+      MyUglyHandwriting-Regular SDF Atlas_55: 2099307227698564191
+      MyUglyHandwriting-Regular SDF Atlas_56: -7047107785345081203
+      MyUglyHandwriting-Regular SDF Atlas_57: 6036120822249175981
+      MyUglyHandwriting-Regular SDF Atlas_58: -4814746447037144034
+      MyUglyHandwriting-Regular SDF Atlas_59: -6189776475434286783
+      MyUglyHandwriting-Regular SDF Atlas_6: -8204619219059390833
+      MyUglyHandwriting-Regular SDF Atlas_60: -2037671015542147169
+      MyUglyHandwriting-Regular SDF Atlas_61: 3389769561975741262
+      MyUglyHandwriting-Regular SDF Atlas_62: 6430568551107950086
+      MyUglyHandwriting-Regular SDF Atlas_63: -5107679418235989398
+      MyUglyHandwriting-Regular SDF Atlas_64: 7700993901177272227
+      MyUglyHandwriting-Regular SDF Atlas_65: 8684304018365624707
+      MyUglyHandwriting-Regular SDF Atlas_66: 6331230514291244993
+      MyUglyHandwriting-Regular SDF Atlas_67: -1007140789433411078
+      MyUglyHandwriting-Regular SDF Atlas_68: -9098204716991174291
+      MyUglyHandwriting-Regular SDF Atlas_69: -1408914959158846400
+      MyUglyHandwriting-Regular SDF Atlas_7: 3051207595017388344
+      MyUglyHandwriting-Regular SDF Atlas_70: 3084868442496174834
+      MyUglyHandwriting-Regular SDF Atlas_71: -4940317679658708309
+      MyUglyHandwriting-Regular SDF Atlas_72: -8314529174518109850
+      MyUglyHandwriting-Regular SDF Atlas_73: 5609392903504878905
+      MyUglyHandwriting-Regular SDF Atlas_74: 6225620115877524395
+      MyUglyHandwriting-Regular SDF Atlas_75: -8792597932144277881
+      MyUglyHandwriting-Regular SDF Atlas_8: -9115235097883895966
+      MyUglyHandwriting-Regular SDF Atlas_9: -2969556833554175499
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
