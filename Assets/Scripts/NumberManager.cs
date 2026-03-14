@@ -71,6 +71,14 @@ public class NumberManager : MonoBehaviour
         history.Add(LastNumber);
         onNumberChanged?.Invoke();
     }
+    public void ResetState()
+{
+    currentNumber = 0;
+    baseNumber = 0;
+    goalNumber = 0;
+
+    history.Clear();
+}
 
     public bool IsGoalReached()
     {

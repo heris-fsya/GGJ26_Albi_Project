@@ -15,14 +15,17 @@ public class DifficultyPopup : MonoBehaviour
     public void Show()
     {
         popupRoot.SetActive(true);
-         UiUpdater.PausedGame(true);
-        Time.timeScale = 0f; // optionnel : pause jeu
+        popupRoot.GetComponent<EventPopupController>().ShowPopup();
+       
+       
     }
 
     public void Hide()
     {
-        popupRoot.SetActive(false);
+      
         Time.timeScale = 1f;
-        UiUpdater.PausedGame(false);
+        popupRoot.GetComponent<EventPopupController>().DeactivatePopup();
+       
+        popupRoot.SetActive(false);
     }
 }

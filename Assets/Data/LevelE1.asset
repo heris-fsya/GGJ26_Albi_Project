@@ -15,6 +15,7 @@ MonoBehaviour:
   bitLength: 4
   difficulty: 0
   showGoalDecimal: 0
+  showButtonDecimal: 0
   baseNumber: 4
   goalNumber: 6
   buttons:
@@ -26,3 +27,4 @@ MonoBehaviour:
     bitMaskOperator: 2
   - value: 6
     bitMaskOperator: 0
+  solution: 2 3

@@ -14,7 +14,9 @@ public class UIUpdater : MonoBehaviour
     public LevelLoader levelLoader;
     public Webcam webcam;
     public int bitLength { get; set; }
+    public SFXManager sfxManager;
     private bool isLevelEnding = false;
+    private bool isGameFinished = false;
 
 
     [Header("Text Elements")]
@@ -22,6 +24,8 @@ public class UIUpdater : MonoBehaviour
     public TMP_Text goalText;
     public TMP_Text historyText;
     public TMP_Text baseText;
+    public TMP_Text IDText;
+    public DifficultyText difficultyText;
 
     [Header("Deco")]
     public Color normalColor = Color.white;
@@ -29,6 +33,8 @@ public class UIUpdater : MonoBehaviour
     public Color goalLockedColor = Color.red;
     public GameObject cadenas;
     public GameObject StopPanel;
+      public GameObject gameplayCanvas;
+    public GameObject victoryCanvas;
 
     private void OnEnable()
     {
@@ -48,18 +54,18 @@ public class UIUpdater : MonoBehaviour
 
     private void Update()
     {
-        if (numberManager.IsGoalReached() && !isLevelEnding)
+        if (numberManager.IsGoalReached() && !isLevelEnding && !isGameFinished)
         {
             StartCoroutine(LevelCompleteRoutine());
         }
     }
 
     private IEnumerator LevelCompleteRoutine()
-    {
+    {   
         isLevelEnding = true;
-
+        PausedGame(true);
         UnityEngine.Debug.Log("Niveau terminé !");
-
+        sfxManager.PlayGoalReached();
         // Setup
         ManualUIImageAnimator cadenasAnimator = cadenas.GetComponent<ManualUIImageAnimator>();
         ManualSpriteAnimator portraitContentAnimator = webcam.portraitContentAnimator;
@@ -81,9 +87,9 @@ public class UIUpdater : MonoBehaviour
         portraitContentAnimator.ResetAnimation();
         portraitContentAnimator.gameObject.SetActive(false);
         webcam.portraitSuiviAnimator.gameObject.SetActive(true);
-
+        PausedGame(false);
         levelLoader.NextLevel();
-
+            
         isLevelEnding = false;
     }
 
@@ -93,7 +99,7 @@ public class UIUpdater : MonoBehaviour
         ManualSpriteAnimator portraitColereAnimator = webcam.portraitColereAnimator;
         webcam.portraitSuiviAnimator.gameObject.SetActive(false);
         portraitColereAnimator.gameObject.SetActive(true);
-
+        sfxManager.PlayRestart();
         // Start animation
         portraitColereAnimator.Play();
 
@@ -106,7 +112,7 @@ public class UIUpdater : MonoBehaviour
         webcam.portraitSuiviAnimator.gameObject.SetActive(true);
     }
 
-    void UpdateUI()
+    public void UpdateUI()
     {
         // Current number
         currentNumberText.text = ToBinaryString(numberManager.currentNumber);
@@ -122,7 +128,7 @@ public class UIUpdater : MonoBehaviour
         }
 
         // Base number
-        baseText.text = ToBinaryString(numberManager.baseNumber);
+        baseText.text = "<b>Base Number:</b> " + ToBinaryString(numberManager.baseNumber);
 
         // Color when goal reached
         currentNumberText.color = numberManager.IsGoalReached()
@@ -135,6 +141,8 @@ public class UIUpdater : MonoBehaviour
         {
             historyText.text = ToBinaryString(value)  + "\n" + historyText.text;
         }
+        IDText.text = "ID: " + levelLoader.levels[levelLoader.currentLevelIndex].name;
+        difficultyText.SetColor(levelLoader.levels[levelLoader.currentLevelIndex].difficulty);
     }
 
     public void UpdateButtonText(NumberButton button)
@@ -213,9 +221,26 @@ public class UIUpdater : MonoBehaviour
            
         }   
 
+public void ResetUI()
+{
+    currentNumberText.text = "";
+    goalText.text = "";
+    baseText.text = "";
 
+    historyText.text = "";
+    IDText.text = "";
+    gameplayCanvas.SetActive(true);
+    victoryCanvas.SetActive(false);
+    isGameFinished = false;
+}
 
-    
+      public void ShowVictoryScreen()
+    {
+        sfxManager.PlayVictoryMusic();
+        isGameFinished = true;
+        gameplayCanvas.SetActive(false);
+        victoryCanvas.SetActive(true);
+    }
 
 
     public string ToBinaryString(uint number)
